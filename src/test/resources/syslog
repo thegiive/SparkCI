@@ -1,0 +1,1644 @@
+Aug 20 08:25:10 ubuntu kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 20 08:25:10 ubuntu rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="412" x-info="http://www.rsyslog.com"] start
+Aug 20 08:25:10 ubuntu rsyslogd: rsyslogd's groupid changed to 103
+Aug 20 08:25:10 ubuntu rsyslogd: rsyslogd's userid changed to 101
+Aug 20 08:25:10 ubuntu rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Linux version 3.8.0-19-generic (buildd@panlong) (gcc version 4.7.3 (Ubuntu/Linaro 4.7.3-1ubuntu1) ) #29-Ubuntu SMP Wed Apr 17 18:19:42 UTC 2013 (Ubuntu 3.8.0-19.29-generic 3.8.8)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] KERNEL supported cpus:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Intel GenuineIntel
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   AMD AuthenticAMD
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   NSC Geode by NSC
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Cyrix CyrixInstead
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Centaur CentaurHauls
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Transmeta GenuineTMx86
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Transmeta TransmetaCPU
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   UMC UMC UMC UMC
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Disabled fast string operations
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000000009f000-0x000000000009ffff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000000ca000-0x00000000000cbfff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fedffff] usable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000003fee0000-0x000000003fefefff] ACPI data
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000003feff000-0x000000003fefffff] ACPI NVS
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x000000003ff00000-0x000000003fffffff] usable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec0ffff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffe0000-0x00000000ffffffff] reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] NX (Execute Disable) protection: active
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] SMBIOS 2.4 present.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] DMI: VMware, Inc. VMware Virtual Platform/440BX Desktop Reference Platform, BIOS 6.00 07/02/2012
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Hypervisor detected: VMware
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] e820: update [mem 0x00000000-0x0000ffff] usable ==> reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] e820: last_pfn = 0x40000 max_arch_pfn = 0x1000000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] MTRR default type: uncachable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] MTRR fixed ranges enabled:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   00000-9FFFF write-back
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   A0000-BFFFF uncachable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   C0000-CBFFF write-protect
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   CC000-EFFFF uncachable
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   F0000-FFFFF write-protect
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] MTRR variable ranges enabled:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   0 base 0000000000 mask FFC0000000 write-back
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   1 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   2 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   3 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   4 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   5 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   6 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   7 disabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x0, new 0x7010600070106
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] found SMP MP-table at [mem 0x000f6bf0-0x000f6bff] mapped at [c00f6bf0]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] initial memory mapped: [mem 0x00000000-0x01ffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Base memory trampoline at [c009b000] 9b000 size 16384
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x37bfdfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]  [mem 0x00000000-0x001fffff] page 4k
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]  [mem 0x00200000-0x379fffff] page 2M
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]  [mem 0x37a00000-0x37bfdfff] page 4k
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] kernel direct mapping tables up to 0x37bfdfff @ [mem 0x01ffa000-0x01ffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] RAMDISK: [mem 0x3616c000-0x370adfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: RSDP 000f6b80 00024 (v02 PTLTD )
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: XSDT 3feed636 0005C (v01 INTEL  440BX    06040000 VMW  01324272)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: FACP 3fefee98 000F4 (v04 INTEL  440BX    06040000 PTL  000F4240)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: DSDT 3feee366 10B32 (v01 PTLTD  Custom   06040000 MSFT 03000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: FACS 3fefffc0 00040
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: BOOT 3feee33e 00028 (v01 PTLTD  $SBFTBL$ 06040000  LTP 00000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: APIC 3feedc3e 003C2 (v01 PTLTD  ? APIC   06040000  LTP 00000000)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: MCFG 3feedc02 0003C (v01 PTLTD  $PCITBL$ 06040000  LTP 00000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: SRAT 3feed732 004D0 (v02 VMWARE MEMPLUG  06040000 VMW  00000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: HPET 3feed6fa 00038 (v01 VMWARE VMW HPET 06040000 VMW  00000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: WAET 3feed6d2 00028 (v01 VMWARE VMW WAET 06040000 VMW  00000001)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] 132MB HIGHMEM available.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] 891MB LOWMEM available.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   mapped low ram: 0 - 37bfe000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   low ram: 0 - 37bfe000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Zone ranges:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   DMA      [mem 0x00010000-0x00ffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Normal   [mem 0x01000000-0x37bfdfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   HighMem  [mem 0x37bfe000-0x3fffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Movable zone start for each node
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Early memory node ranges
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   node   0: [mem 0x00010000-0x0009efff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   node   0: [mem 0x00100000-0x3fedffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   node   0: [mem 0x3ff00000-0x3fffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] On node 0 totalpages: 261999
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] free_area_init_node: node 0, pgdat c18f6100, node_mem_map f73fd200
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   DMA zone: 0 pages reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   DMA zone: 3951 pages, LIFO batch:0
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Normal zone: 1752 pages used for memmap
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   Normal zone: 222502 pages, LIFO batch:31
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   HighMem zone: 265 pages used for memmap
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]   HighMem zone: 33497 pages, LIFO batch:7
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Using APIC driver default
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x1008
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x02] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x04] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x06] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x04] lapic_id[0x08] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x05] lapic_id[0x0a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x06] lapic_id[0x0c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x07] lapic_id[0x0e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x08] lapic_id[0x10] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x09] lapic_id[0x12] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x14] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x16] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x18] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x1a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x1c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x1e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x10] lapic_id[0x20] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x11] lapic_id[0x22] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x12] lapic_id[0x24] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x13] lapic_id[0x26] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x14] lapic_id[0x28] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x15] lapic_id[0x2a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x16] lapic_id[0x2c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x17] lapic_id[0x2e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x18] lapic_id[0x30] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x19] lapic_id[0x32] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1a] lapic_id[0x34] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1b] lapic_id[0x36] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1c] lapic_id[0x38] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1d] lapic_id[0x3a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1e] lapic_id[0x3c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x1f] lapic_id[0x3e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x20] lapic_id[0x40] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x21] lapic_id[0x42] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x22] lapic_id[0x44] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x23] lapic_id[0x46] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x24] lapic_id[0x48] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x25] lapic_id[0x4a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x26] lapic_id[0x4c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x27] lapic_id[0x4e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x28] lapic_id[0x50] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x29] lapic_id[0x52] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2a] lapic_id[0x54] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2b] lapic_id[0x56] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2c] lapic_id[0x58] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2d] lapic_id[0x5a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2e] lapic_id[0x5c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x2f] lapic_id[0x5e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x30] lapic_id[0x60] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x31] lapic_id[0x62] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x32] lapic_id[0x64] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x33] lapic_id[0x66] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x34] lapic_id[0x68] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x35] lapic_id[0x6a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x36] lapic_id[0x6c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x37] lapic_id[0x6e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x38] lapic_id[0x70] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x39] lapic_id[0x72] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3a] lapic_id[0x74] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3b] lapic_id[0x76] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3c] lapic_id[0x78] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3d] lapic_id[0x7a] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3e] lapic_id[0x7c] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x3f] lapic_id[0x7e] disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x20] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x21] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x22] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x23] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x24] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x25] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x26] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x27] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x28] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x29] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2a] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2b] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2c] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2d] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2e] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x2f] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x30] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x31] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x32] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x33] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x34] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x35] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x36] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x37] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x38] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x39] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3a] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3b] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3c] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3d] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3e] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0x3f] high edge lint[0x1])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-23
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 high edge)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: IRQ0 used by override.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: IRQ2 used by override.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: IRQ9 used by override.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] ACPI: HPET id: 0x8086af01 base: 0xfed00000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] smpboot: 64 Processors exceeds NR_CPUS limit of 8
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] smpboot: Allowing 8 CPUs, 7 hotplug CPUs
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] nr_irqs_gsi: 40
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000ca000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PM: Registered nosave memory: 00000000000ca000 - 00000000000cc000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PM: Registered nosave memory: 00000000000cc000 - 00000000000dc000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PM: Registered nosave memory: 00000000000dc000 - 0000000000100000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] e820: [mem 0x40000000-0xdfffffff] available for PCI devices
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] setup_percpu: NR_CPUS:8 nr_cpumask_bits:8 nr_cpu_ids:8 nr_node_ids:1
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PERCPU: Embedded 14 pages/cpu @f7386000 s35008 r0 d22336 u57344
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] pcpu-alloc: s35008 r0 d22336 u57344 alloc=14*4096
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7 
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 259950
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.8.0-19-generic root=UUID=9b167cdd-081e-42f0-8cc0-cc79d8d98dad ro find_preseed=/preseed.cfg noprompt quiet
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] __ex_table already sorted, skipping sort
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Initializing CPU#0
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] allocated 2097024 bytes of page_cgroup
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Initializing HighMem for node 0 (00037bfe:00040000)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Memory: 1009868k/1048576k available (6251k kernel code, 38128k reserved, 2973k data, 784k init, 135048k highmem)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] virtual kernel memory layout:
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]     fixmap  : 0xfff14000 - 0xfffff000   ( 940 kB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]     vmalloc : 0xf83fe000 - 0xffbfe000   ( 120 MB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xf7bfe000   ( 891 MB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]       .init : 0xc1903000 - 0xc19c7000   ( 784 kB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]       .data : 0xc161ad30 - 0xc19023c0   (2973 kB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000]       .text : 0xc1000000 - 0xc161ad30   (6251 kB)
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Hierarchical RCU implementation.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] NR_IRQS:2304 nr_irqs:744 16
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] CPU 0 irqstacks, hard=f5c0a000 soft=f5c0c000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Extended CMOS year: 2000
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] Console: colour VGA+ 80x25
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] console [tty0] enabled
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] hpet clockevent registered
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] TSC freq read from hypervisor : 2692.655 MHz
+Aug 20 08:25:10 ubuntu kernel: [    0.000000] tsc: Detected 2692.655 MHz processor
+Aug 20 08:25:10 ubuntu kernel: [    0.000001] Calibrating delay loop (skipped) preset value.. 5385.31 BogoMIPS (lpj=10770620)
+Aug 20 08:25:10 ubuntu kernel: [    0.000003] pid_max: default: 32768 minimum: 301
+Aug 20 08:25:10 ubuntu kernel: [    0.000028] Security Framework initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.000040] AppArmor: AppArmor initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.000041] Yama: becoming mindful.
+Aug 20 08:25:10 ubuntu kernel: [    0.000069] Mount-cache hash table entries: 512
+Aug 20 08:25:10 ubuntu kernel: [    0.000202] Initializing cgroup subsys cpuacct
+Aug 20 08:25:10 ubuntu kernel: [    0.000203] Initializing cgroup subsys memory
+Aug 20 08:25:10 ubuntu kernel: [    0.000207] Initializing cgroup subsys devices
+Aug 20 08:25:10 ubuntu kernel: [    0.000208] Initializing cgroup subsys freezer
+Aug 20 08:25:10 ubuntu kernel: [    0.000209] Initializing cgroup subsys blkio
+Aug 20 08:25:10 ubuntu kernel: [    0.000210] Initializing cgroup subsys perf_event
+Aug 20 08:25:10 ubuntu kernel: [    0.000212] Initializing cgroup subsys hugetlb
+Aug 20 08:25:10 ubuntu kernel: [    0.000254] Disabled fast string operations
+Aug 20 08:25:10 ubuntu kernel: [    0.000257] CPU: Physical Processor ID: 0
+Aug 20 08:25:10 ubuntu kernel: [    0.000265] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+Aug 20 08:25:10 ubuntu kernel: [    0.000265] ENERGY_PERF_BIAS: View and update with x86_energy_perf_policy(8)
+Aug 20 08:25:10 ubuntu kernel: [    0.000803] mce: CPU supports 0 MCE banks
+Aug 20 08:25:10 ubuntu kernel: [    0.000818] Last level iTLB entries: 4KB 512, 2MB 0, 4MB 0
+Aug 20 08:25:10 ubuntu kernel: [    0.000818] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32
+Aug 20 08:25:10 ubuntu kernel: [    0.000818] tlb_flushall_shift: 1
+Aug 20 08:25:10 ubuntu kernel: [    0.016206] ACPI: Core revision 20121018
+Aug 20 08:25:10 ubuntu kernel: [    0.022316] ftrace: allocating 26115 entries in 52 pages
+Aug 20 08:25:10 ubuntu kernel: [    0.043373] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Aug 20 08:25:10 ubuntu kernel: [    0.043689] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Aug 20 08:25:10 ubuntu kernel: [    0.083474] smpboot: CPU0: Intel(R) Core(TM) i7-3740QM CPU @ 2.70GHz (fam: 06, model: 3a, stepping: 09)
+Aug 20 08:25:10 ubuntu kernel: [    0.189129] Performance Events: 16-deep LBR, IvyBridge events, core PMU driver.
+Aug 20 08:25:10 ubuntu kernel: [    0.189141] perf_event_intel: CPUID marked event: 'cpu cycles' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189142] perf_event_intel: CPUID marked event: 'instructions' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189143] perf_event_intel: CPUID marked event: 'bus cycles' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189144] perf_event_intel: CPUID marked event: 'cache references' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189144] perf_event_intel: CPUID marked event: 'cache misses' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189145] perf_event_intel: CPUID marked event: 'branch instructions' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189145] perf_event_intel: CPUID marked event: 'branch misses' unavailable
+Aug 20 08:25:10 ubuntu kernel: [    0.189148] ... version:                1
+Aug 20 08:25:10 ubuntu kernel: [    0.189149] ... bit width:              48
+Aug 20 08:25:10 ubuntu kernel: [    0.189149] ... generic registers:      4
+Aug 20 08:25:10 ubuntu kernel: [    0.189150] ... value mask:             0000ffffffffffff
+Aug 20 08:25:10 ubuntu kernel: [    0.189159] ... max period:             000000007fffffff
+Aug 20 08:25:10 ubuntu kernel: [    0.189160] ... fixed-purpose events:   0
+Aug 20 08:25:10 ubuntu kernel: [    0.189161] ... event mask:             000000000000000f
+Aug 20 08:25:10 ubuntu kernel: [    0.189929] Brought up 1 CPUs
+Aug 20 08:25:10 ubuntu kernel: [    0.189931] smpboot: Total of 1 processors activated (5385.31 BogoMIPS)
+Aug 20 08:25:10 ubuntu kernel: [    0.190001] x86 PAT enabled: cpu 0, old 0x0, new 0x7010600070106
+Aug 20 08:25:10 ubuntu kernel: [    0.190052] NMI watchdog: disabled (cpu0): hardware events not enabled
+Aug 20 08:25:10 ubuntu kernel: [    0.190131] devtmpfs: initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.190251] EVM: security.selinux
+Aug 20 08:25:10 ubuntu kernel: [    0.190251] EVM: security.SMACK64
+Aug 20 08:25:10 ubuntu kernel: [    0.190252] EVM: security.capability
+Aug 20 08:25:10 ubuntu kernel: [    0.190304] PM: Registering ACPI NVS region [mem 0x3feff000-0x3fefffff] (4096 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.190797] regulator-dummy: no parameters
+Aug 20 08:25:10 ubuntu kernel: [    0.190830] NET: Registered protocol family 16
+Aug 20 08:25:10 ubuntu kernel: [    0.190902] EISA bus registered
+Aug 20 08:25:10 ubuntu kernel: [    0.190958] ACPI: bus type pci registered
+Aug 20 08:25:10 ubuntu kernel: [    0.191063] PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0xe0000000-0xefffffff] (base 0xe0000000)
+Aug 20 08:25:10 ubuntu kernel: [    0.191065] PCI: MMCONFIG at [mem 0xe0000000-0xefffffff] reserved in E820
+Aug 20 08:25:10 ubuntu kernel: [    0.191066] PCI: Using MMCONFIG for extended config space
+Aug 20 08:25:10 ubuntu kernel: [    0.191066] PCI: Using configuration type 1 for base access
+Aug 20 08:25:10 ubuntu kernel: [    0.191597] bio: create slab <bio-0> at 0
+Aug 20 08:25:10 ubuntu kernel: [    0.191689] ACPI: Added _OSI(Module Device)
+Aug 20 08:25:10 ubuntu kernel: [    0.191690] ACPI: Added _OSI(Processor Device)
+Aug 20 08:25:10 ubuntu kernel: [    0.191691] ACPI: Added _OSI(3.0 _SCP Extensions)
+Aug 20 08:25:10 ubuntu kernel: [    0.191692] ACPI: Added _OSI(Processor Aggregator Device)
+Aug 20 08:25:10 ubuntu kernel: [    0.193289] ACPI: EC: Look up EC in DSDT
+Aug 20 08:25:10 ubuntu kernel: [    0.196683] [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored
+Aug 20 08:25:10 ubuntu kernel: [    0.202880] ACPI: Interpreter enabled
+Aug 20 08:25:10 ubuntu kernel: [    0.202887] ACPI: (supports S0 S1 S4 S5)
+Aug 20 08:25:10 ubuntu kernel: [    0.202894] ACPI: Using IOAPIC for interrupt routing
+Aug 20 08:25:10 ubuntu kernel: [    0.235361] ACPI: No dock devices found.
+Aug 20 08:25:10 ubuntu kernel: [    0.235366] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Aug 20 08:25:10 ubuntu kernel: [    0.235804] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Aug 20 08:25:10 ubuntu kernel: [    0.235805] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Aug 20 08:25:10 ubuntu kernel: [    0.236946] PCI host bridge to bus 0000:00
+Aug 20 08:25:10 ubuntu kernel: [    0.236948] pci_bus 0000:00: root bus resource [bus 00-ff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236950] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236951] pci_bus 0000:00: root bus resource [mem 0x000cc000-0x000cffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236952] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236953] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236954] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236955] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236957] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+Aug 20 08:25:10 ubuntu kernel: [    0.236958] pci_bus 0000:00: root bus resource [io  0x0d00-0xfeff]
+Aug 20 08:25:10 ubuntu kernel: [    0.236996] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+Aug 20 08:25:10 ubuntu kernel: [    0.237345] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.237646] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+Aug 20 08:25:10 ubuntu kernel: [    0.238128] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+Aug 20 08:25:10 ubuntu kernel: [    0.239560] pci 0000:00:07.1: reg 20: [io  0x10c0-0x10cf]
+Aug 20 08:25:10 ubuntu kernel: [    0.240194] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+Aug 20 08:25:10 ubuntu kernel: [    0.241858] pci 0000:00:07.3: quirk: [io  0x1000-0x103f] claimed by PIIX4 ACPI
+Aug 20 08:25:10 ubuntu kernel: [    0.241868] pci 0000:00:07.3: quirk: [io  0x1040-0x104f] claimed by PIIX4 SMB
+Aug 20 08:25:10 ubuntu kernel: [    0.242049] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+Aug 20 08:25:10 ubuntu kernel: [    0.242582] pci 0000:00:07.7: reg 10: [io  0x1080-0x10bf]
+Aug 20 08:25:10 ubuntu kernel: [    0.243059] pci 0000:00:07.7: reg 14: [mem 0xc8000000-0xc8001fff 64bit]
+Aug 20 08:25:10 ubuntu kernel: [    0.245259] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+Aug 20 08:25:10 ubuntu kernel: [    0.246562] pci 0000:00:0f.0: reg 10: [io  0x10d0-0x10df]
+Aug 20 08:25:10 ubuntu kernel: [    0.247769] pci 0000:00:0f.0: reg 14: [mem 0xd0000000-0xd7ffffff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.248997] pci 0000:00:0f.0: reg 18: [mem 0xc8800000-0xc8ffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.253825] pci 0000:00:0f.0: reg 30: [mem 0x00000000-0x00007fff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.254063] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+Aug 20 08:25:10 ubuntu kernel: [    0.254745] pci 0000:00:10.0: reg 10: [io  0x1400-0x14ff]
+Aug 20 08:25:10 ubuntu kernel: [    0.255430] pci 0000:00:10.0: reg 14: [mem 0xc8040000-0xc805ffff 64bit]
+Aug 20 08:25:10 ubuntu kernel: [    0.256096] pci 0000:00:10.0: reg 1c: [mem 0xc8020000-0xc803ffff 64bit]
+Aug 20 08:25:10 ubuntu kernel: [    0.257365] pci 0000:00:10.0: reg 30: [mem 0x00000000-0x00003fff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.257487] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+Aug 20 08:25:10 ubuntu kernel: [    0.258029] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.258591] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.258792] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.259367] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.259561] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.260178] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.260391] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.260974] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.261196] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.261775] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.261974] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.262550] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.262752] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.263328] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.263569] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.264149] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.264350] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.264934] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.265144] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.265738] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.265937] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.266511] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.266709] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.267284] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.267489] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.268064] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.268263] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.268846] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.269033] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.269621] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.269809] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.270394] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.270582] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.271126] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.271314] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.271878] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.272066] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.272618] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.272827] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.273377] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.273573] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.274157] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.274344] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.274889] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.275077] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.275622] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.275833] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.276411] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.276612] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.277203] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.277402] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.277978] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.278177] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.278753] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.278952] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.279527] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.279735] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.280310] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.280509] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.281086] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.281286] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.281845] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.282039] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+Aug 20 08:25:10 ubuntu kernel: [    0.282600] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+Aug 20 08:25:10 ubuntu kernel: [    0.283070] pci 0000:00:01.0: PCI bridge to [bus 01]
+Aug 20 08:25:10 ubuntu kernel: [    0.283329] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+Aug 20 08:25:10 ubuntu kernel: [    0.284635] pci 0000:02:00.0: reg 20: [io  0x20c0-0x20df]
+Aug 20 08:25:10 ubuntu kernel: [    0.285264] pci 0000:02:01.0: [1022:2000] type 00 class 0x020000
+Aug 20 08:25:10 ubuntu kernel: [    0.285539] pci 0000:02:01.0: reg 10: [io  0x2000-0x207f]
+Aug 20 08:25:10 ubuntu kernel: [    0.286972] pci 0000:02:01.0: reg 30: [mem 0x00000000-0x0000ffff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.287071] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+Aug 20 08:25:10 ubuntu kernel: [    0.287375] pci 0000:02:02.0: reg 10: [io  0x2080-0x20bf]
+Aug 20 08:25:10 ubuntu kernel: [    0.289154] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+Aug 20 08:25:10 ubuntu kernel: [    0.289459] pci 0000:02:03.0: reg 10: [mem 0xc9000000-0xc9000fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.291319] pci 0000:00:11.0: PCI bridge to [bus 02] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291336] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.291353] pci 0000:00:11.0:   bridge window [mem 0xc9000000-0xca3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.291394] pci 0000:00:11.0:   bridge window [mem 0xd8400000-0xd89fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.291396] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291397] pci 0000:00:11.0:   bridge window [mem 0x000cc000-0x000cffff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291398] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291399] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291400] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291401] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291402] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291403] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff] (subtractive decode)
+Aug 20 08:25:10 ubuntu kernel: [    0.291777] pci 0000:00:15.0: PCI bridge to [bus 03]
+Aug 20 08:25:10 ubuntu kernel: [    0.291794] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.291812] pci 0000:00:15.0:   bridge window [mem 0xca400000-0xca4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.291844] pci 0000:00:15.0:   bridge window [mem 0xd8a00000-0xd8afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.292207] pci 0000:00:15.1: PCI bridge to [bus 04]
+Aug 20 08:25:10 ubuntu kernel: [    0.292224] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.292242] pci 0000:00:15.1:   bridge window [mem 0xca800000-0xca8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.292285] pci 0000:00:15.1:   bridge window [mem 0xd8e00000-0xd8efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.292664] pci 0000:00:15.2: PCI bridge to [bus 05]
+Aug 20 08:25:10 ubuntu kernel: [    0.292681] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.292699] pci 0000:00:15.2:   bridge window [mem 0xcac00000-0xcacfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.292731] pci 0000:00:15.2:   bridge window [mem 0xd9200000-0xd92fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.293084] pci 0000:00:15.3: PCI bridge to [bus 06]
+Aug 20 08:25:10 ubuntu kernel: [    0.293117] pci 0000:00:15.3:   bridge window [mem 0xcb000000-0xcb0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.293150] pci 0000:00:15.3:   bridge window [mem 0xd9600000-0xd96fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.293527] pci 0000:00:15.4: PCI bridge to [bus 07]
+Aug 20 08:25:10 ubuntu kernel: [    0.293559] pci 0000:00:15.4:   bridge window [mem 0xcb400000-0xcb4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.293592] pci 0000:00:15.4:   bridge window [mem 0xd9a00000-0xd9afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.293944] pci 0000:00:15.5: PCI bridge to [bus 08]
+Aug 20 08:25:10 ubuntu kernel: [    0.293977] pci 0000:00:15.5:   bridge window [mem 0xcb800000-0xcb8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.294010] pci 0000:00:15.5:   bridge window [mem 0xd9e00000-0xd9efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.294361] pci 0000:00:15.6: PCI bridge to [bus 09]
+Aug 20 08:25:10 ubuntu kernel: [    0.294394] pci 0000:00:15.6:   bridge window [mem 0xcbc00000-0xcbcfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.294426] pci 0000:00:15.6:   bridge window [mem 0xda200000-0xda2fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.294814] pci 0000:00:15.7: PCI bridge to [bus 0a]
+Aug 20 08:25:10 ubuntu kernel: [    0.294846] pci 0000:00:15.7:   bridge window [mem 0xcc000000-0xcc0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.294879] pci 0000:00:15.7:   bridge window [mem 0xda600000-0xda6fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.295230] pci 0000:00:16.0: PCI bridge to [bus 0b]
+Aug 20 08:25:10 ubuntu kernel: [    0.295247] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.295265] pci 0000:00:16.0:   bridge window [mem 0xca500000-0xca5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.295297] pci 0000:00:16.0:   bridge window [mem 0xd8b00000-0xd8bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.295648] pci 0000:00:16.1: PCI bridge to [bus 0c]
+Aug 20 08:25:10 ubuntu kernel: [    0.295665] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.295682] pci 0000:00:16.1:   bridge window [mem 0xca900000-0xca9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.295715] pci 0000:00:16.1:   bridge window [mem 0xd8f00000-0xd8ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.296067] pci 0000:00:16.2: PCI bridge to [bus 0d]
+Aug 20 08:25:10 ubuntu kernel: [    0.296084] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.296101] pci 0000:00:16.2:   bridge window [mem 0xcad00000-0xcadfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.296134] pci 0000:00:16.2:   bridge window [mem 0xd9300000-0xd93fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.296485] pci 0000:00:16.3: PCI bridge to [bus 0e]
+Aug 20 08:25:10 ubuntu kernel: [    0.296518] pci 0000:00:16.3:   bridge window [mem 0xcb100000-0xcb1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.296551] pci 0000:00:16.3:   bridge window [mem 0xd9700000-0xd97fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.296909] pci 0000:00:16.4: PCI bridge to [bus 0f]
+Aug 20 08:25:10 ubuntu kernel: [    0.296941] pci 0000:00:16.4:   bridge window [mem 0xcb500000-0xcb5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.296972] pci 0000:00:16.4:   bridge window [mem 0xd9b00000-0xd9bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.297321] pci 0000:00:16.5: PCI bridge to [bus 10]
+Aug 20 08:25:10 ubuntu kernel: [    0.297353] pci 0000:00:16.5:   bridge window [mem 0xcb900000-0xcb9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.297384] pci 0000:00:16.5:   bridge window [mem 0xd9f00000-0xd9ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.297727] pci 0000:00:16.6: PCI bridge to [bus 11]
+Aug 20 08:25:10 ubuntu kernel: [    0.297759] pci 0000:00:16.6:   bridge window [mem 0xcbd00000-0xcbdfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.297790] pci 0000:00:16.6:   bridge window [mem 0xda300000-0xda3fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.298190] pci 0000:00:16.7: PCI bridge to [bus 12]
+Aug 20 08:25:10 ubuntu kernel: [    0.298221] pci 0000:00:16.7:   bridge window [mem 0xcc100000-0xcc1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.298253] pci 0000:00:16.7:   bridge window [mem 0xda700000-0xda7fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.298595] pci 0000:00:17.0: PCI bridge to [bus 13]
+Aug 20 08:25:10 ubuntu kernel: [    0.298612] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.298628] pci 0000:00:17.0:   bridge window [mem 0xca600000-0xca6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.298660] pci 0000:00:17.0:   bridge window [mem 0xd8c00000-0xd8cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.299022] pci 0000:00:17.1: PCI bridge to [bus 14]
+Aug 20 08:25:10 ubuntu kernel: [    0.299038] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+Aug 20 08:25:10 ubuntu kernel: [    0.299055] pci 0000:00:17.1:   bridge window [mem 0xcaa00000-0xcaafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.299087] pci 0000:00:17.1:   bridge window [mem 0xd9000000-0xd90fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.299440] pci 0000:00:17.2: PCI bridge to [bus 15]
+Aug 20 08:25:10 ubuntu kernel: [    0.299457] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+Aug 20 08:25:10 ubuntu kernel: [    0.299474] pci 0000:00:17.2:   bridge window [mem 0xcae00000-0xcaefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.299507] pci 0000:00:17.2:   bridge window [mem 0xd9400000-0xd94fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.299859] pci 0000:00:17.3: PCI bridge to [bus 16]
+Aug 20 08:25:10 ubuntu kernel: [    0.299892] pci 0000:00:17.3:   bridge window [mem 0xcb200000-0xcb2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.299924] pci 0000:00:17.3:   bridge window [mem 0xd9800000-0xd98fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.300295] pci 0000:00:17.4: PCI bridge to [bus 17]
+Aug 20 08:25:10 ubuntu kernel: [    0.300345] pci 0000:00:17.4:   bridge window [mem 0xcb600000-0xcb6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.300378] pci 0000:00:17.4:   bridge window [mem 0xd9c00000-0xd9cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.300730] pci 0000:00:17.5: PCI bridge to [bus 18]
+Aug 20 08:25:10 ubuntu kernel: [    0.300762] pci 0000:00:17.5:   bridge window [mem 0xcba00000-0xcbafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.300795] pci 0000:00:17.5:   bridge window [mem 0xda000000-0xda0fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.301148] pci 0000:00:17.6: PCI bridge to [bus 19]
+Aug 20 08:25:10 ubuntu kernel: [    0.301180] pci 0000:00:17.6:   bridge window [mem 0xcbe00000-0xcbefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.301213] pci 0000:00:17.6:   bridge window [mem 0xda400000-0xda4fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.301571] pci 0000:00:17.7: PCI bridge to [bus 1a]
+Aug 20 08:25:10 ubuntu kernel: [    0.301603] pci 0000:00:17.7:   bridge window [mem 0xcc200000-0xcc2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.301636] pci 0000:00:17.7:   bridge window [mem 0xda800000-0xda8fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.301987] pci 0000:00:18.0: PCI bridge to [bus 1b]
+Aug 20 08:25:10 ubuntu kernel: [    0.302004] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302022] pci 0000:00:18.0:   bridge window [mem 0xca700000-0xca7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302054] pci 0000:00:18.0:   bridge window [mem 0xd8d00000-0xd8dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.302406] pci 0000:00:18.1: PCI bridge to [bus 1c]
+Aug 20 08:25:10 ubuntu kernel: [    0.302423] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302440] pci 0000:00:18.1:   bridge window [mem 0xcab00000-0xcabfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302473] pci 0000:00:18.1:   bridge window [mem 0xd9100000-0xd91fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.302832] pci 0000:00:18.2: PCI bridge to [bus 1d]
+Aug 20 08:25:10 ubuntu kernel: [    0.302849] pci 0000:00:18.2:   bridge window [io  0xf000-0xffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302866] pci 0000:00:18.2:   bridge window [mem 0xcaf00000-0xcaffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.302899] pci 0000:00:18.2:   bridge window [mem 0xd9500000-0xd95fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.303251] pci 0000:00:18.3: PCI bridge to [bus 1e]
+Aug 20 08:25:10 ubuntu kernel: [    0.303284] pci 0000:00:18.3:   bridge window [mem 0xcb300000-0xcb3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.303317] pci 0000:00:18.3:   bridge window [mem 0xd9900000-0xd99fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.303674] pci 0000:00:18.4: PCI bridge to [bus 1f]
+Aug 20 08:25:10 ubuntu kernel: [    0.303707] pci 0000:00:18.4:   bridge window [mem 0xcb700000-0xcb7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.303740] pci 0000:00:18.4:   bridge window [mem 0xd9d00000-0xd9dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.304092] pci 0000:00:18.5: PCI bridge to [bus 20]
+Aug 20 08:25:10 ubuntu kernel: [    0.304125] pci 0000:00:18.5:   bridge window [mem 0xcbb00000-0xcbbfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.304157] pci 0000:00:18.5:   bridge window [mem 0xda100000-0xda1fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.304527] pci 0000:00:18.6: PCI bridge to [bus 21]
+Aug 20 08:25:10 ubuntu kernel: [    0.304559] pci 0000:00:18.6:   bridge window [mem 0xcbf00000-0xcbffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.304592] pci 0000:00:18.6:   bridge window [mem 0xda500000-0xda5fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.304950] pci 0000:00:18.7: PCI bridge to [bus 22]
+Aug 20 08:25:10 ubuntu kernel: [    0.304981] pci 0000:00:18.7:   bridge window [mem 0xcc300000-0xcc3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.305013] pci 0000:00:18.7:   bridge window [mem 0xda900000-0xda9fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.306502] pci_bus 0000:00: on NUMA node 0
+Aug 20 08:25:10 ubuntu kernel: [    0.306663]  pci0000:00: Requesting ACPI _OSC control (0x1d)
+Aug 20 08:25:10 ubuntu kernel: [    0.306813]  pci0000:00: ACPI _OSC control (0x15) granted
+Aug 20 08:25:10 ubuntu kernel: [    0.308385] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 *9 10 11 14 15)
+Aug 20 08:25:10 ubuntu kernel: [    0.308437] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11 14 15)
+Aug 20 08:25:10 ubuntu kernel: [    0.308486] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 *10 11 14 15)
+Aug 20 08:25:10 ubuntu kernel: [    0.308534] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 *5 6 7 9 10 11 14 15)
+Aug 20 08:25:10 ubuntu kernel: [    0.308640] vgaarb: device added: PCI:0000:00:0f.0,decodes=io+mem,owns=io+mem,locks=none
+Aug 20 08:25:10 ubuntu kernel: [    0.308643] vgaarb: loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.308644] vgaarb: bridge control possible 0000:00:0f.0
+Aug 20 08:25:10 ubuntu kernel: [    0.308769] SCSI subsystem initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.308771] ACPI: bus type scsi registered
+Aug 20 08:25:10 ubuntu kernel: [    0.308817] libata version 3.00 loaded.
+Aug 20 08:25:10 ubuntu kernel: [    0.308830] ACPI: bus type usb registered
+Aug 20 08:25:10 ubuntu kernel: [    0.308841] usbcore: registered new interface driver usbfs
+Aug 20 08:25:10 ubuntu kernel: [    0.308845] usbcore: registered new interface driver hub
+Aug 20 08:25:10 ubuntu kernel: [    0.308896] usbcore: registered new device driver usb
+Aug 20 08:25:10 ubuntu kernel: [    0.308961] PCI: Using ACPI for IRQ routing
+Aug 20 08:25:10 ubuntu kernel: [    0.361835] PCI: pci_cache_line_size set to 64 bytes
+Aug 20 08:25:10 ubuntu kernel: [    0.361853] pci 0000:00:18.2: no compatible bridge window for [io  0xf000-0xffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.362615] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.362617] e820: reserve RAM buffer [mem 0x3fee0000-0x3fffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.362703] NetLabel: Initializing
+Aug 20 08:25:10 ubuntu kernel: [    0.362704] NetLabel:  domain hash size = 128
+Aug 20 08:25:10 ubuntu kernel: [    0.362705] NetLabel:  protocols = UNLABELED CIPSOv4
+Aug 20 08:25:10 ubuntu kernel: [    0.362710] NetLabel:  unlabeled traffic allowed by default
+Aug 20 08:25:10 ubuntu kernel: [    0.362844] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+Aug 20 08:25:10 ubuntu kernel: [    0.362850] hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+Aug 20 08:25:10 ubuntu kernel: [    0.364912] Switching to clocksource hpet
+Aug 20 08:25:10 ubuntu kernel: [    0.368864] AppArmor: AppArmor Filesystem Enabled
+Aug 20 08:25:10 ubuntu kernel: [    0.368879] pnp: PnP ACPI init
+Aug 20 08:25:10 ubuntu kernel: [    0.368886] ACPI: bus type pnp registered
+Aug 20 08:25:10 ubuntu kernel: [    0.369015] system 00:00: [io  0x1000-0x103f] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.369017] system 00:00: [io  0x1040-0x104f] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.369019] system 00:00: [io  0x0cf0-0x0cf1] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.369021] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369027] pnp 00:01: [dma 4]
+Aug 20 08:25:10 ubuntu kernel: [    0.369039] pnp 00:01: Plug and Play ACPI device, IDs PNP0200 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369050] pnp 00:02: Plug and Play ACPI device, IDs PNP0001 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369071] pnp 00:03: Plug and Play ACPI device, IDs PNP0b00 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369081] pnp 00:04: Plug and Play ACPI device, IDs PNP0800 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369098] pnp 00:05: Plug and Play ACPI device, IDs PNP0303 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369112] pnp 00:06: Plug and Play ACPI device, IDs PNP0f13 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.369256] system 00:07: [mem 0xfed00000-0xfed003ff] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.369258] system 00:07: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.373731] pnp 00:08: Plug and Play ACPI device, IDs PNP0400 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.377635] pnp 00:09: Plug and Play ACPI device, IDs PNP0501 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.381142] pnp 00:0a: Plug and Play ACPI device, IDs PNP0501 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.385060] pnp 00:0b: [dma 2]
+Aug 20 08:25:10 ubuntu kernel: [    0.385865] pnp 00:0b: Plug and Play ACPI device, IDs PNP0700 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.386006] system 00:0c: [io  0x1060-0x107f] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.386008] system 00:0c: [mem 0xe0000000-0xefffffff] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.386010] system 00:0c: [mem 0xc8200000-0xc83fffff] has been reserved
+Aug 20 08:25:10 ubuntu kernel: [    0.386011] system 00:0c: Plug and Play ACPI device, IDs PNP0c02 (active)
+Aug 20 08:25:10 ubuntu kernel: [    0.389745] pnp: PnP ACPI: found 13 devices
+Aug 20 08:25:10 ubuntu kernel: [    0.389746] ACPI: ACPI bus type pnp unregistered
+Aug 20 08:25:10 ubuntu kernel: [    0.389749] PnPBIOS: Disabled by ACPI PNP
+Aug 20 08:25:10 ubuntu kernel: [    0.425244] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425296] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425346] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425397] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425447] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425640] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425691] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425741] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425792] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.425842] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426034] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426084] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426134] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426185] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426235] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426380] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426430] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426480] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426531] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426581] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426632] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426643] pci 0000:00:15.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426645] pci 0000:00:15.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426647] pci 0000:00:15.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426649] pci 0000:00:15.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426650] pci 0000:00:15.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426652] pci 0000:00:16.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426654] pci 0000:00:16.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426655] pci 0000:00:16.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426657] pci 0000:00:16.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426659] pci 0000:00:16.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426660] pci 0000:00:17.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426662] pci 0000:00:17.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426664] pci 0000:00:17.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426665] pci 0000:00:17.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426667] pci 0000:00:17.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426669] pci 0000:00:18.2: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426670] pci 0000:00:18.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426672] pci 0000:00:18.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426674] pci 0000:00:18.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426675] pci 0000:00:18.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426677] pci 0000:00:18.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+Aug 20 08:25:10 ubuntu kernel: [    0.426682] pci 0000:00:0f.0: BAR 6: assigned [mem 0xc0000000-0xc0007fff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.426685] pci 0000:00:10.0: BAR 6: assigned [mem 0xc0008000-0xc000bfff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.426688] pci 0000:00:15.3: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426691] pci 0000:00:15.4: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426693] pci 0000:00:15.5: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426696] pci 0000:00:15.6: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426698] pci 0000:00:15.7: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426700] pci 0000:00:16.3: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426702] pci 0000:00:16.4: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426705] pci 0000:00:16.5: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426707] pci 0000:00:16.6: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426718] pci 0000:00:16.7: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426721] pci 0000:00:17.3: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426723] pci 0000:00:17.4: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426725] pci 0000:00:17.5: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426727] pci 0000:00:17.6: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426729] pci 0000:00:17.7: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426731] pci 0000:00:18.2: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426734] pci 0000:00:18.3: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426736] pci 0000:00:18.4: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426738] pci 0000:00:18.5: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426740] pci 0000:00:18.6: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426742] pci 0000:00:18.7: BAR 13: can't assign io (size 0x1000)
+Aug 20 08:25:10 ubuntu kernel: [    0.426746] pci 0000:00:01.0: PCI bridge to [bus 01]
+Aug 20 08:25:10 ubuntu kernel: [    0.426819] pci 0000:02:01.0: BAR 6: assigned [mem 0xd8400000-0xd840ffff pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.426821] pci 0000:00:11.0: PCI bridge to [bus 02]
+Aug 20 08:25:10 ubuntu kernel: [    0.426832] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.426857] pci 0000:00:11.0:   bridge window [mem 0xc9000000-0xca3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.426875] pci 0000:00:11.0:   bridge window [mem 0xd8400000-0xd89fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.426907] pci 0000:00:15.0: PCI bridge to [bus 03]
+Aug 20 08:25:10 ubuntu kernel: [    0.426917] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.426942] pci 0000:00:15.0:   bridge window [mem 0xca400000-0xca4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.426960] pci 0000:00:15.0:   bridge window [mem 0xd8a00000-0xd8afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427017] pci 0000:00:15.1: PCI bridge to [bus 04]
+Aug 20 08:25:10 ubuntu kernel: [    0.427029] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427054] pci 0000:00:15.1:   bridge window [mem 0xca800000-0xca8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427072] pci 0000:00:15.1:   bridge window [mem 0xd8e00000-0xd8efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427121] pci 0000:00:15.2: PCI bridge to [bus 05]
+Aug 20 08:25:10 ubuntu kernel: [    0.427133] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427159] pci 0000:00:15.2:   bridge window [mem 0xcac00000-0xcacfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427177] pci 0000:00:15.2:   bridge window [mem 0xd9200000-0xd92fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427226] pci 0000:00:15.3: PCI bridge to [bus 06]
+Aug 20 08:25:10 ubuntu kernel: [    0.427252] pci 0000:00:15.3:   bridge window [mem 0xcb000000-0xcb0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427269] pci 0000:00:15.3:   bridge window [mem 0xd9600000-0xd96fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427308] pci 0000:00:15.4: PCI bridge to [bus 07]
+Aug 20 08:25:10 ubuntu kernel: [    0.427334] pci 0000:00:15.4:   bridge window [mem 0xcb400000-0xcb4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427352] pci 0000:00:15.4:   bridge window [mem 0xd9a00000-0xd9afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427391] pci 0000:00:15.5: PCI bridge to [bus 08]
+Aug 20 08:25:10 ubuntu kernel: [    0.427417] pci 0000:00:15.5:   bridge window [mem 0xcb800000-0xcb8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427434] pci 0000:00:15.5:   bridge window [mem 0xd9e00000-0xd9efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427473] pci 0000:00:15.6: PCI bridge to [bus 09]
+Aug 20 08:25:10 ubuntu kernel: [    0.427499] pci 0000:00:15.6:   bridge window [mem 0xcbc00000-0xcbcfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427517] pci 0000:00:15.6:   bridge window [mem 0xda200000-0xda2fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427556] pci 0000:00:15.7: PCI bridge to [bus 0a]
+Aug 20 08:25:10 ubuntu kernel: [    0.427582] pci 0000:00:15.7:   bridge window [mem 0xcc000000-0xcc0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427599] pci 0000:00:15.7:   bridge window [mem 0xda600000-0xda6fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427638] pci 0000:00:16.0: PCI bridge to [bus 0b]
+Aug 20 08:25:10 ubuntu kernel: [    0.427649] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427674] pci 0000:00:16.0:   bridge window [mem 0xca500000-0xca5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427692] pci 0000:00:16.0:   bridge window [mem 0xd8b00000-0xd8bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427740] pci 0000:00:16.1: PCI bridge to [bus 0c]
+Aug 20 08:25:10 ubuntu kernel: [    0.427752] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427787] pci 0000:00:16.1:   bridge window [mem 0xca900000-0xca9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427805] pci 0000:00:16.1:   bridge window [mem 0xd8f00000-0xd8ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427855] pci 0000:00:16.2: PCI bridge to [bus 0d]
+Aug 20 08:25:10 ubuntu kernel: [    0.427867] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427893] pci 0000:00:16.2:   bridge window [mem 0xcad00000-0xcadfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.427911] pci 0000:00:16.2:   bridge window [mem 0xd9300000-0xd93fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.427960] pci 0000:00:16.3: PCI bridge to [bus 0e]
+Aug 20 08:25:10 ubuntu kernel: [    0.427986] pci 0000:00:16.3:   bridge window [mem 0xcb100000-0xcb1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428003] pci 0000:00:16.3:   bridge window [mem 0xd9700000-0xd97fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428042] pci 0000:00:16.4: PCI bridge to [bus 0f]
+Aug 20 08:25:10 ubuntu kernel: [    0.428068] pci 0000:00:16.4:   bridge window [mem 0xcb500000-0xcb5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428086] pci 0000:00:16.4:   bridge window [mem 0xd9b00000-0xd9bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428125] pci 0000:00:16.5: PCI bridge to [bus 10]
+Aug 20 08:25:10 ubuntu kernel: [    0.428151] pci 0000:00:16.5:   bridge window [mem 0xcb900000-0xcb9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428168] pci 0000:00:16.5:   bridge window [mem 0xd9f00000-0xd9ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428210] pci 0000:00:16.6: PCI bridge to [bus 11]
+Aug 20 08:25:10 ubuntu kernel: [    0.428236] pci 0000:00:16.6:   bridge window [mem 0xcbd00000-0xcbdfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428254] pci 0000:00:16.6:   bridge window [mem 0xda300000-0xda3fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428309] pci 0000:00:16.7: PCI bridge to [bus 12]
+Aug 20 08:25:10 ubuntu kernel: [    0.428335] pci 0000:00:16.7:   bridge window [mem 0xcc100000-0xcc1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428352] pci 0000:00:16.7:   bridge window [mem 0xda700000-0xda7fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428392] pci 0000:00:17.0: PCI bridge to [bus 13]
+Aug 20 08:25:10 ubuntu kernel: [    0.428403] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428428] pci 0000:00:17.0:   bridge window [mem 0xca600000-0xca6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428446] pci 0000:00:17.0:   bridge window [mem 0xd8c00000-0xd8cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428485] pci 0000:00:17.1: PCI bridge to [bus 14]
+Aug 20 08:25:10 ubuntu kernel: [    0.428496] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428521] pci 0000:00:17.1:   bridge window [mem 0xcaa00000-0xcaafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428539] pci 0000:00:17.1:   bridge window [mem 0xd9000000-0xd90fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428578] pci 0000:00:17.2: PCI bridge to [bus 15]
+Aug 20 08:25:10 ubuntu kernel: [    0.428589] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428614] pci 0000:00:17.2:   bridge window [mem 0xcae00000-0xcaefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428631] pci 0000:00:17.2:   bridge window [mem 0xd9400000-0xd94fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428671] pci 0000:00:17.3: PCI bridge to [bus 16]
+Aug 20 08:25:10 ubuntu kernel: [    0.428696] pci 0000:00:17.3:   bridge window [mem 0xcb200000-0xcb2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428714] pci 0000:00:17.3:   bridge window [mem 0xd9800000-0xd98fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428753] pci 0000:00:17.4: PCI bridge to [bus 17]
+Aug 20 08:25:10 ubuntu kernel: [    0.428779] pci 0000:00:17.4:   bridge window [mem 0xcb600000-0xcb6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428796] pci 0000:00:17.4:   bridge window [mem 0xd9c00000-0xd9cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428836] pci 0000:00:17.5: PCI bridge to [bus 18]
+Aug 20 08:25:10 ubuntu kernel: [    0.428861] pci 0000:00:17.5:   bridge window [mem 0xcba00000-0xcbafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428879] pci 0000:00:17.5:   bridge window [mem 0xda000000-0xda0fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.428923] pci 0000:00:17.6: PCI bridge to [bus 19]
+Aug 20 08:25:10 ubuntu kernel: [    0.428949] pci 0000:00:17.6:   bridge window [mem 0xcbe00000-0xcbefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.428966] pci 0000:00:17.6:   bridge window [mem 0xda400000-0xda4fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429006] pci 0000:00:17.7: PCI bridge to [bus 1a]
+Aug 20 08:25:10 ubuntu kernel: [    0.429031] pci 0000:00:17.7:   bridge window [mem 0xcc200000-0xcc2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429049] pci 0000:00:17.7:   bridge window [mem 0xda800000-0xda8fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429088] pci 0000:00:18.0: PCI bridge to [bus 1b]
+Aug 20 08:25:10 ubuntu kernel: [    0.429099] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429125] pci 0000:00:18.0:   bridge window [mem 0xca700000-0xca7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429142] pci 0000:00:18.0:   bridge window [mem 0xd8d00000-0xd8dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429181] pci 0000:00:18.1: PCI bridge to [bus 1c]
+Aug 20 08:25:10 ubuntu kernel: [    0.429192] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429217] pci 0000:00:18.1:   bridge window [mem 0xcab00000-0xcabfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429235] pci 0000:00:18.1:   bridge window [mem 0xd9100000-0xd91fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429274] pci 0000:00:18.2: PCI bridge to [bus 1d]
+Aug 20 08:25:10 ubuntu kernel: [    0.429300] pci 0000:00:18.2:   bridge window [mem 0xcaf00000-0xcaffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429317] pci 0000:00:18.2:   bridge window [mem 0xd9500000-0xd95fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429357] pci 0000:00:18.3: PCI bridge to [bus 1e]
+Aug 20 08:25:10 ubuntu kernel: [    0.429391] pci 0000:00:18.3:   bridge window [mem 0xcb300000-0xcb3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429409] pci 0000:00:18.3:   bridge window [mem 0xd9900000-0xd99fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429459] pci 0000:00:18.4: PCI bridge to [bus 1f]
+Aug 20 08:25:10 ubuntu kernel: [    0.429495] pci 0000:00:18.4:   bridge window [mem 0xcb700000-0xcb7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429513] pci 0000:00:18.4:   bridge window [mem 0xd9d00000-0xd9dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429561] pci 0000:00:18.5: PCI bridge to [bus 20]
+Aug 20 08:25:10 ubuntu kernel: [    0.429586] pci 0000:00:18.5:   bridge window [mem 0xcbb00000-0xcbbfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429604] pci 0000:00:18.5:   bridge window [mem 0xda100000-0xda1fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429643] pci 0000:00:18.6: PCI bridge to [bus 21]
+Aug 20 08:25:10 ubuntu kernel: [    0.429669] pci 0000:00:18.6:   bridge window [mem 0xcbf00000-0xcbffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429686] pci 0000:00:18.6:   bridge window [mem 0xda500000-0xda5fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429725] pci 0000:00:18.7: PCI bridge to [bus 22]
+Aug 20 08:25:10 ubuntu kernel: [    0.429751] pci 0000:00:18.7:   bridge window [mem 0xcc300000-0xcc3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.429769] pci 0000:00:18.7:   bridge window [mem 0xda900000-0xda9fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.429835] pci 0000:00:01.0: setting latency timer to 64
+Aug 20 08:25:10 ubuntu kernel: [    0.430592] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430594] pci_bus 0000:00: resource 5 [mem 0x000cc000-0x000cffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430596] pci_bus 0000:00: resource 6 [mem 0x000d0000-0x000d3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430597] pci_bus 0000:00: resource 7 [mem 0x000d4000-0x000d7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430599] pci_bus 0000:00: resource 8 [mem 0x000d8000-0x000dbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430601] pci_bus 0000:00: resource 9 [mem 0xc0000000-0xfebfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430602] pci_bus 0000:00: resource 10 [io  0x0000-0x0cf7]
+Aug 20 08:25:10 ubuntu kernel: [    0.430604] pci_bus 0000:00: resource 11 [io  0x0d00-0xfeff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430606] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430607] pci_bus 0000:02: resource 1 [mem 0xc9000000-0xca3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430609] pci_bus 0000:02: resource 2 [mem 0xd8400000-0xd89fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430611] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430612] pci_bus 0000:02: resource 5 [mem 0x000cc000-0x000cffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430614] pci_bus 0000:02: resource 6 [mem 0x000d0000-0x000d3fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430615] pci_bus 0000:02: resource 7 [mem 0x000d4000-0x000d7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430617] pci_bus 0000:02: resource 8 [mem 0x000d8000-0x000dbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430618] pci_bus 0000:02: resource 9 [mem 0xc0000000-0xfebfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430620] pci_bus 0000:02: resource 10 [io  0x0000-0x0cf7]
+Aug 20 08:25:10 ubuntu kernel: [    0.430621] pci_bus 0000:02: resource 11 [io  0x0d00-0xfeff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430623] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430625] pci_bus 0000:03: resource 1 [mem 0xca400000-0xca4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430626] pci_bus 0000:03: resource 2 [mem 0xd8a00000-0xd8afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430628] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430630] pci_bus 0000:04: resource 1 [mem 0xca800000-0xca8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430631] pci_bus 0000:04: resource 2 [mem 0xd8e00000-0xd8efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430633] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430634] pci_bus 0000:05: resource 1 [mem 0xcac00000-0xcacfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430636] pci_bus 0000:05: resource 2 [mem 0xd9200000-0xd92fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430638] pci_bus 0000:06: resource 1 [mem 0xcb000000-0xcb0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430639] pci_bus 0000:06: resource 2 [mem 0xd9600000-0xd96fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430641] pci_bus 0000:07: resource 1 [mem 0xcb400000-0xcb4fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430643] pci_bus 0000:07: resource 2 [mem 0xd9a00000-0xd9afffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430644] pci_bus 0000:08: resource 1 [mem 0xcb800000-0xcb8fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430646] pci_bus 0000:08: resource 2 [mem 0xd9e00000-0xd9efffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430648] pci_bus 0000:09: resource 1 [mem 0xcbc00000-0xcbcfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430649] pci_bus 0000:09: resource 2 [mem 0xda200000-0xda2fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430651] pci_bus 0000:0a: resource 1 [mem 0xcc000000-0xcc0fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430652] pci_bus 0000:0a: resource 2 [mem 0xda600000-0xda6fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430654] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430656] pci_bus 0000:0b: resource 1 [mem 0xca500000-0xca5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430657] pci_bus 0000:0b: resource 2 [mem 0xd8b00000-0xd8bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430659] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430660] pci_bus 0000:0c: resource 1 [mem 0xca900000-0xca9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430662] pci_bus 0000:0c: resource 2 [mem 0xd8f00000-0xd8ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430664] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430665] pci_bus 0000:0d: resource 1 [mem 0xcad00000-0xcadfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430667] pci_bus 0000:0d: resource 2 [mem 0xd9300000-0xd93fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430668] pci_bus 0000:0e: resource 1 [mem 0xcb100000-0xcb1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430670] pci_bus 0000:0e: resource 2 [mem 0xd9700000-0xd97fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430672] pci_bus 0000:0f: resource 1 [mem 0xcb500000-0xcb5fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430673] pci_bus 0000:0f: resource 2 [mem 0xd9b00000-0xd9bfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430675] pci_bus 0000:10: resource 1 [mem 0xcb900000-0xcb9fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430677] pci_bus 0000:10: resource 2 [mem 0xd9f00000-0xd9ffffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430678] pci_bus 0000:11: resource 1 [mem 0xcbd00000-0xcbdfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430680] pci_bus 0000:11: resource 2 [mem 0xda300000-0xda3fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430682] pci_bus 0000:12: resource 1 [mem 0xcc100000-0xcc1fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430683] pci_bus 0000:12: resource 2 [mem 0xda700000-0xda7fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430685] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430686] pci_bus 0000:13: resource 1 [mem 0xca600000-0xca6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430688] pci_bus 0000:13: resource 2 [mem 0xd8c00000-0xd8cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430690] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430691] pci_bus 0000:14: resource 1 [mem 0xcaa00000-0xcaafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430693] pci_bus 0000:14: resource 2 [mem 0xd9000000-0xd90fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430694] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430696] pci_bus 0000:15: resource 1 [mem 0xcae00000-0xcaefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430698] pci_bus 0000:15: resource 2 [mem 0xd9400000-0xd94fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430699] pci_bus 0000:16: resource 1 [mem 0xcb200000-0xcb2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430701] pci_bus 0000:16: resource 2 [mem 0xd9800000-0xd98fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430703] pci_bus 0000:17: resource 1 [mem 0xcb600000-0xcb6fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430704] pci_bus 0000:17: resource 2 [mem 0xd9c00000-0xd9cfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430706] pci_bus 0000:18: resource 1 [mem 0xcba00000-0xcbafffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430707] pci_bus 0000:18: resource 2 [mem 0xda000000-0xda0fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430709] pci_bus 0000:19: resource 1 [mem 0xcbe00000-0xcbefffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430711] pci_bus 0000:19: resource 2 [mem 0xda400000-0xda4fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430712] pci_bus 0000:1a: resource 1 [mem 0xcc200000-0xcc2fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430714] pci_bus 0000:1a: resource 2 [mem 0xda800000-0xda8fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430716] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430717] pci_bus 0000:1b: resource 1 [mem 0xca700000-0xca7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430719] pci_bus 0000:1b: resource 2 [mem 0xd8d00000-0xd8dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430721] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430722] pci_bus 0000:1c: resource 1 [mem 0xcab00000-0xcabfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430724] pci_bus 0000:1c: resource 2 [mem 0xd9100000-0xd91fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430725] pci_bus 0000:1d: resource 1 [mem 0xcaf00000-0xcaffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430727] pci_bus 0000:1d: resource 2 [mem 0xd9500000-0xd95fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430729] pci_bus 0000:1e: resource 1 [mem 0xcb300000-0xcb3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430730] pci_bus 0000:1e: resource 2 [mem 0xd9900000-0xd99fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430732] pci_bus 0000:1f: resource 1 [mem 0xcb700000-0xcb7fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430734] pci_bus 0000:1f: resource 2 [mem 0xd9d00000-0xd9dfffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430735] pci_bus 0000:20: resource 1 [mem 0xcbb00000-0xcbbfffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430737] pci_bus 0000:20: resource 2 [mem 0xda100000-0xda1fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430739] pci_bus 0000:21: resource 1 [mem 0xcbf00000-0xcbffffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430740] pci_bus 0000:21: resource 2 [mem 0xda500000-0xda5fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430742] pci_bus 0000:22: resource 1 [mem 0xcc300000-0xcc3fffff]
+Aug 20 08:25:10 ubuntu kernel: [    0.430744] pci_bus 0000:22: resource 2 [mem 0xda900000-0xda9fffff 64bit pref]
+Aug 20 08:25:10 ubuntu kernel: [    0.430773] NET: Registered protocol family 2
+Aug 20 08:25:10 ubuntu kernel: [    0.430874] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.430893] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.430910] TCP: Hash tables configured (established 8192 bind 8192)
+Aug 20 08:25:10 ubuntu kernel: [    0.430928] TCP: reno registered
+Aug 20 08:25:10 ubuntu kernel: [    0.430931] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.430936] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.430967] NET: Registered protocol family 1
+Aug 20 08:25:10 ubuntu kernel: [    0.430973] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Aug 20 08:25:10 ubuntu kernel: [    0.431039] pci 0000:00:0f.0: Boot video device
+Aug 20 08:25:10 ubuntu kernel: [    0.431581] PCI: CLS 32 bytes, default 64
+Aug 20 08:25:10 ubuntu kernel: [    0.431609] Trying to unpack rootfs image as initramfs...
+Aug 20 08:25:10 ubuntu kernel: [    0.584760] Freeing initrd memory: 15624k freed
+Aug 20 08:25:10 ubuntu kernel: [    0.585840] Simple Boot Flag at 0x36 set to 0x1
+Aug 20 08:25:10 ubuntu kernel: [    0.585848] Switching to clocksource tsc
+Aug 20 08:25:10 ubuntu kernel: [    0.586007] Initialise module verification
+Aug 20 08:25:10 ubuntu kernel: [    0.586035] audit: initializing netlink socket (disabled)
+Aug 20 08:25:10 ubuntu kernel: [    0.586043] type=2000 audit(1377012308.461:1): initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.597999] bounce pool size: 64 pages
+Aug 20 08:25:10 ubuntu kernel: [    0.598012] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Aug 20 08:25:10 ubuntu kernel: [    0.598759] VFS: Disk quotas dquot_6.5.2
+Aug 20 08:25:10 ubuntu kernel: [    0.598788] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 20 08:25:10 ubuntu kernel: [    0.599082] fuse init (API version 7.20)
+Aug 20 08:25:10 ubuntu kernel: [    0.599126] msgmni has been set to 1739
+Aug 20 08:25:10 ubuntu kernel: [    0.599416] Key type asymmetric registered
+Aug 20 08:25:10 ubuntu kernel: [    0.599418] Asymmetric key parser 'x509' registered
+Aug 20 08:25:10 ubuntu kernel: [    0.599438] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+Aug 20 08:25:10 ubuntu kernel: [    0.599461] io scheduler noop registered
+Aug 20 08:25:10 ubuntu kernel: [    0.599463] io scheduler deadline registered (default)
+Aug 20 08:25:10 ubuntu kernel: [    0.599467] io scheduler cfq registered
+Aug 20 08:25:10 ubuntu kernel: [    0.599994] pcieport 0000:00:15.0: irq 40 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.600762] pcieport 0000:00:15.1: irq 41 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.601539] pcieport 0000:00:15.2: irq 42 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.602287] pcieport 0000:00:15.3: irq 43 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.603032] pcieport 0000:00:15.4: irq 44 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.603779] pcieport 0000:00:15.5: irq 45 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.604504] pcieport 0000:00:15.6: irq 46 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.605312] pcieport 0000:00:15.7: irq 47 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.606059] pcieport 0000:00:16.0: irq 48 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.606806] pcieport 0000:00:16.1: irq 49 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.607554] pcieport 0000:00:16.2: irq 50 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.608296] pcieport 0000:00:16.3: irq 51 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.609052] pcieport 0000:00:16.4: irq 52 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.609803] pcieport 0000:00:16.5: irq 53 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.610525] pcieport 0000:00:16.6: irq 54 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.611262] pcieport 0000:00:16.7: irq 55 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.612005] pcieport 0000:00:17.0: irq 56 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.612709] pcieport 0000:00:17.1: irq 57 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.613423] pcieport 0000:00:17.2: irq 58 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.614137] pcieport 0000:00:17.3: irq 59 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.614853] pcieport 0000:00:17.4: irq 60 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.615577] pcieport 0000:00:17.5: irq 61 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.616284] pcieport 0000:00:17.6: irq 62 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.617077] pcieport 0000:00:17.7: irq 63 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.617803] pcieport 0000:00:18.0: irq 64 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.618529] pcieport 0000:00:18.1: irq 65 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.619252] pcieport 0000:00:18.2: irq 66 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.619991] pcieport 0000:00:18.3: irq 67 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.620698] pcieport 0000:00:18.4: irq 68 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.621445] pcieport 0000:00:18.5: irq 69 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.622152] pcieport 0000:00:18.6: irq 70 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.622856] pcieport 0000:00:18.7: irq 71 for MSI/MSI-X
+Aug 20 08:25:10 ubuntu kernel: [    0.623251] pcieport 0000:00:15.0: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623270] pcie_pme 0000:00:15.0:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623366] pcieport 0000:00:15.1: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623385] pcie_pme 0000:00:15.1:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623470] pcieport 0000:00:15.2: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623489] pcie_pme 0000:00:15.2:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623574] pcieport 0000:00:15.3: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623593] pcie_pme 0000:00:15.3:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623678] pcieport 0000:00:15.4: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623697] pcie_pme 0000:00:15.4:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623785] pcieport 0000:00:15.5: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623803] pcie_pme 0000:00:15.5:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623889] pcieport 0000:00:15.6: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.623907] pcie_pme 0000:00:15.6:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.623993] pcieport 0000:00:15.7: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624011] pcie_pme 0000:00:15.7:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624097] pcieport 0000:00:16.0: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624115] pcie_pme 0000:00:16.0:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624200] pcieport 0000:00:16.1: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624219] pcie_pme 0000:00:16.1:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624304] pcieport 0000:00:16.2: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624322] pcie_pme 0000:00:16.2:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624408] pcieport 0000:00:16.3: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624426] pcie_pme 0000:00:16.3:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624512] pcieport 0000:00:16.4: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624530] pcie_pme 0000:00:16.4:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624620] pcieport 0000:00:16.5: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624638] pcie_pme 0000:00:16.5:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624724] pcieport 0000:00:16.6: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624742] pcie_pme 0000:00:16.6:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624829] pcieport 0000:00:16.7: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624847] pcie_pme 0000:00:16.7:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.624938] pcieport 0000:00:17.0: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.624957] pcie_pme 0000:00:17.0:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625042] pcieport 0000:00:17.1: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625061] pcie_pme 0000:00:17.1:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625146] pcieport 0000:00:17.2: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625174] pcie_pme 0000:00:17.2:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625261] pcieport 0000:00:17.3: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625280] pcie_pme 0000:00:17.3:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625375] pcieport 0000:00:17.4: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625393] pcie_pme 0000:00:17.4:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625479] pcieport 0000:00:17.5: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625506] pcie_pme 0000:00:17.5:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625612] pcieport 0000:00:17.6: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625631] pcie_pme 0000:00:17.6:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625727] pcieport 0000:00:17.7: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625746] pcie_pme 0000:00:17.7:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625832] pcieport 0000:00:18.0: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625850] pcie_pme 0000:00:18.0:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.625936] pcieport 0000:00:18.1: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.625954] pcie_pme 0000:00:18.1:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626042] pcieport 0000:00:18.2: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626061] pcie_pme 0000:00:18.2:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626147] pcieport 0000:00:18.3: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626165] pcie_pme 0000:00:18.3:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626251] pcieport 0000:00:18.4: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626269] pcie_pme 0000:00:18.4:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626355] pcieport 0000:00:18.5: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626373] pcie_pme 0000:00:18.5:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626459] pcieport 0000:00:18.6: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626477] pcie_pme 0000:00:18.6:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626563] pcieport 0000:00:18.7: Signaling PME through PCIe PME interrupt
+Aug 20 08:25:10 ubuntu kernel: [    0.626581] pcie_pme 0000:00:18.7:pcie01: service driver pcie_pme loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.626591] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Aug 20 08:25:10 ubuntu kernel: [    0.626966] pciehp 0000:00:15.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627021] pciehp 0000:00:15.0:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627073] pciehp 0000:00:15.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627121] pciehp 0000:00:15.1:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627172] pciehp 0000:00:15.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627221] pciehp 0000:00:15.2:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627272] pciehp 0000:00:15.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627322] pciehp 0000:00:15.3:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627373] pciehp 0000:00:15.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627422] pciehp 0000:00:15.4:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627473] pciehp 0000:00:15.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627521] pciehp 0000:00:15.5:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627575] pciehp 0000:00:15.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627631] pciehp 0000:00:15.6:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627684] pciehp 0000:00:15.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627743] pciehp 0000:00:15.7:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627805] pciehp 0000:00:16.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627853] pciehp 0000:00:16.0:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.627904] pciehp 0000:00:16.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.627955] pciehp 0000:00:16.1:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628006] pciehp 0000:00:16.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628054] pciehp 0000:00:16.2:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628105] pciehp 0000:00:16.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628159] pciehp 0000:00:16.3:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628210] pciehp 0000:00:16.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628258] pciehp 0000:00:16.4:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628309] pciehp 0000:00:16.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628358] pciehp 0000:00:16.5:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628409] pciehp 0000:00:16.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628457] pciehp 0000:00:16.6:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628508] pciehp 0000:00:16.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628556] pciehp 0000:00:16.7:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628607] pciehp 0000:00:17.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628658] pciehp 0000:00:17.0:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628709] pciehp 0000:00:17.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628767] pciehp 0000:00:17.1:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628819] pciehp 0000:00:17.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628868] pciehp 0000:00:17.2:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.628919] pciehp 0000:00:17.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.628968] pciehp 0000:00:17.3:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629019] pciehp 0000:00:17.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629068] pciehp 0000:00:17.4:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629128] pciehp 0000:00:17.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629177] pciehp 0000:00:17.5:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629231] pciehp 0000:00:17.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629289] pciehp 0000:00:17.6:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629340] pciehp 0000:00:17.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629388] pciehp 0000:00:17.7:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629439] pciehp 0000:00:18.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629487] pciehp 0000:00:18.0:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629539] pciehp 0000:00:18.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629587] pciehp 0000:00:18.1:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629638] pciehp 0000:00:18.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629687] pciehp 0000:00:18.2:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629738] pciehp 0000:00:18.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629789] pciehp 0000:00:18.3:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629840] pciehp 0000:00:18.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629889] pciehp 0000:00:18.4:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.629940] pciehp 0000:00:18.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.629988] pciehp 0000:00:18.5:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.630048] pciehp 0000:00:18.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.630109] pciehp 0000:00:18.6:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.630164] pciehp 0000:00:18.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+Aug 20 08:25:10 ubuntu kernel: [    0.630222] pciehp 0000:00:18.7:pcie04: service driver pciehp loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.630226] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Aug 20 08:25:10 ubuntu kernel: [    0.630265] intel_idle: does not run on family 6 model 58
+Aug 20 08:25:10 ubuntu kernel: [    0.630409] ACPI: AC Adapter [ACAD] (on-line)
+Aug 20 08:25:10 ubuntu kernel: [    0.630547] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Aug 20 08:25:10 ubuntu kernel: [    0.630551] ACPI: Power Button [PWRF]
+Aug 20 08:25:10 ubuntu kernel: [    0.657802] GHES: HEST is not enabled!
+Aug 20 08:25:10 ubuntu kernel: [    0.657856] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Aug 20 08:25:10 ubuntu kernel: [    0.680569] 00:09: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Aug 20 08:25:10 ubuntu kernel: [    0.680607] isapnp: Scanning for PnP cards...
+Aug 20 08:25:10 ubuntu kernel: [    0.793889] 00:0a: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+Aug 20 08:25:10 ubuntu kernel: [    0.794608] Linux agpgart interface v0.103
+Aug 20 08:25:10 ubuntu kernel: [    0.794663] agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+Aug 20 08:25:10 ubuntu kernel: [    0.794952] agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+Aug 20 08:25:10 ubuntu kernel: [    0.795653] brd: module loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.796015] loop: module loaded
+Aug 20 08:25:10 ubuntu kernel: [    0.796075] ata_piix 0000:00:07.1: version 2.13
+Aug 20 08:25:10 ubuntu kernel: [    0.796267] scsi0 : ata_piix
+Aug 20 08:25:10 ubuntu kernel: [    0.796312] scsi1 : ata_piix
+Aug 20 08:25:10 ubuntu kernel: [    0.796329] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x10c0 irq 14
+Aug 20 08:25:10 ubuntu kernel: [    0.796330] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x10c8 irq 15
+Aug 20 08:25:10 ubuntu kernel: [    0.796535] libphy: Fixed MDIO Bus: probed
+Aug 20 08:25:10 ubuntu kernel: [    0.796568] tun: Universal TUN/TAP device driver, 1.6
+Aug 20 08:25:10 ubuntu kernel: [    0.796569] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Aug 20 08:25:10 ubuntu kernel: [    0.796603] PPP generic driver version 2.4.2
+Aug 20 08:25:10 ubuntu kernel: [    0.796603] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Aug 20 08:25:10 ubuntu kernel: [    0.796603] ehci-pci: EHCI PCI platform driver
+Aug 20 08:25:10 ubuntu kernel: [    0.796652] ehci-pci 0000:02:03.0: EHCI Host Controller
+Aug 20 08:25:10 ubuntu kernel: [    0.796657] ehci-pci 0000:02:03.0: new USB bus registered, assigned bus number 1
+Aug 20 08:25:10 ubuntu kernel: [    0.796778] ehci-pci 0000:02:03.0: cache line size of 32 is not supported
+Aug 20 08:25:10 ubuntu kernel: [    0.796803] ehci-pci 0000:02:03.0: irq 17, io mem 0xc9000000
+Aug 20 08:25:10 ubuntu kernel: [    0.840664] ehci-pci 0000:02:03.0: USB 2.0 started, EHCI 1.00
+Aug 20 08:25:10 ubuntu kernel: [    0.840690] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Aug 20 08:25:10 ubuntu kernel: [    0.840692] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 08:25:10 ubuntu kernel: [    0.840694] usb usb1: Product: EHCI Host Controller
+Aug 20 08:25:10 ubuntu kernel: [    0.840695] usb usb1: Manufacturer: Linux 3.8.0-19-generic ehci_hcd
+Aug 20 08:25:10 ubuntu kernel: [    0.840697] usb usb1: SerialNumber: 0000:02:03.0
+Aug 20 08:25:10 ubuntu kernel: [    0.840768] hub 1-0:1.0: USB hub found
+Aug 20 08:25:10 ubuntu kernel: [    0.840771] hub 1-0:1.0: 6 ports detected
+Aug 20 08:25:10 ubuntu kernel: [    0.840832] ehci-platform: EHCI generic platform driver
+Aug 20 08:25:10 ubuntu kernel: [    0.840837] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Aug 20 08:25:10 ubuntu kernel: [    0.840849] uhci_hcd: USB Universal Host Controller Interface driver
+Aug 20 08:25:10 ubuntu kernel: [    0.840888] uhci_hcd 0000:02:00.0: UHCI Host Controller
+Aug 20 08:25:10 ubuntu kernel: [    0.840892] uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+Aug 20 08:25:10 ubuntu kernel: [    0.841056] uhci_hcd 0000:02:00.0: irq 18, io base 0x000020c0
+Aug 20 08:25:10 ubuntu kernel: [    0.841138] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Aug 20 08:25:10 ubuntu kernel: [    0.841140] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Aug 20 08:25:10 ubuntu kernel: [    0.841141] usb usb2: Product: UHCI Host Controller
+Aug 20 08:25:10 ubuntu kernel: [    0.841143] usb usb2: Manufacturer: Linux 3.8.0-19-generic uhci_hcd
+Aug 20 08:25:10 ubuntu kernel: [    0.841144] usb usb2: SerialNumber: 0000:02:00.0
+Aug 20 08:25:10 ubuntu kernel: [    0.841198] hub 2-0:1.0: USB hub found
+Aug 20 08:25:10 ubuntu kernel: [    0.841200] hub 2-0:1.0: 2 ports detected
+Aug 20 08:25:10 ubuntu kernel: [    0.841318] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+Aug 20 08:25:10 ubuntu kernel: [    0.841921] serio: i8042 KBD port at 0x60,0x64 irq 1
+Aug 20 08:25:10 ubuntu kernel: [    0.841928] serio: i8042 AUX port at 0x60,0x64 irq 12
+Aug 20 08:25:10 ubuntu kernel: [    0.841984] mousedev: PS/2 mouse device common for all mice
+Aug 20 08:25:10 ubuntu kernel: [    0.842287] rtc_cmos 00:03: rtc core: registered rtc_cmos as rtc0
+Aug 20 08:25:10 ubuntu kernel: [    0.842373] rtc0: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+Aug 20 08:25:10 ubuntu kernel: [    0.842426] device-mapper: uevent: version 1.0.3
+Aug 20 08:25:10 ubuntu kernel: [    0.842492] device-mapper: ioctl: 4.23.1-ioctl (2012-12-18) initialised: dm-devel@redhat.com
+Aug 20 08:25:10 ubuntu kernel: [    0.842500] EISA: Probing bus 0 at eisa.0
+Aug 20 08:25:10 ubuntu kernel: [    0.842502] EISA: Cannot allocate resource for mainboard
+Aug 20 08:25:10 ubuntu kernel: [    0.842503] Cannot allocate resource for EISA slot 1
+Aug 20 08:25:10 ubuntu kernel: [    0.842504] Cannot allocate resource for EISA slot 2
+Aug 20 08:25:10 ubuntu kernel: [    0.842505] Cannot allocate resource for EISA slot 3
+Aug 20 08:25:10 ubuntu kernel: [    0.842507] Cannot allocate resource for EISA slot 4
+Aug 20 08:25:10 ubuntu kernel: [    0.842508] Cannot allocate resource for EISA slot 5
+Aug 20 08:25:10 ubuntu kernel: [    0.842509] Cannot allocate resource for EISA slot 6
+Aug 20 08:25:10 ubuntu kernel: [    0.842510] Cannot allocate resource for EISA slot 7
+Aug 20 08:25:10 ubuntu kernel: [    0.842511] Cannot allocate resource for EISA slot 8
+Aug 20 08:25:10 ubuntu kernel: [    0.842512] EISA: Detected 0 cards.
+Aug 20 08:25:10 ubuntu kernel: [    0.842518] cpufreq-nforce2: No nForce2 chipset.
+Aug 20 08:25:10 ubuntu kernel: [    0.842519] cpuidle: using governor ladder
+Aug 20 08:25:10 ubuntu kernel: [    0.842521] cpuidle: using governor menu
+Aug 20 08:25:10 ubuntu kernel: [    0.842524] ledtrig-cpu: registered to indicate activity on CPUs
+Aug 20 08:25:10 ubuntu kernel: [    0.842525] EFI Variables Facility v0.08 2004-May-17
+Aug 20 08:25:10 ubuntu kernel: [    0.929647] ashmem: initialized
+Aug 20 08:25:10 ubuntu kernel: [    0.929722] TCP: cubic registered
+Aug 20 08:25:10 ubuntu kernel: [    0.929779] NET: Registered protocol family 10
+Aug 20 08:25:10 ubuntu kernel: [    0.929887] NET: Registered protocol family 17
+Aug 20 08:25:10 ubuntu kernel: [    0.929896] Key type dns_resolver registered
+Aug 20 08:25:10 ubuntu kernel: [    0.929978] Using IPI No-Shortcut mode
+Aug 20 08:25:10 ubuntu kernel: [    0.930019] Loading module verification certificates
+Aug 20 08:25:10 ubuntu kernel: [    0.931060] MODSIGN: Loaded cert 'Magrathea: Glacier signing key: fceb9fd088cf158e29d83343e1c98bf8ab23d94a'
+Aug 20 08:25:10 ubuntu kernel: [    0.931074] registered taskstats version 1
+Aug 20 08:25:10 ubuntu kernel: [    0.932505] Key type trusted registered
+Aug 20 08:25:10 ubuntu kernel: [    0.932662] Key type encrypted registered
+Aug 20 08:25:10 ubuntu kernel: [    0.937417] rtc_cmos 00:03: setting system clock to 2013-08-20 15:25:09 UTC (1377012309)
+Aug 20 08:25:10 ubuntu kernel: [    0.937455] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Aug 20 08:25:10 ubuntu kernel: [    0.937457] EDD information not available.
+Aug 20 08:25:10 ubuntu kernel: [    0.981107] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Aug 20 08:25:10 ubuntu kernel: [    1.112117] isapnp: No Plug & Play device found
+Aug 20 08:25:10 ubuntu kernel: [    1.112494] ata1.00: ATAPI: VMware Virtual IDE CDROM Drive, 00000001, max UDMA/33
+Aug 20 08:25:10 ubuntu kernel: [    1.112612] ata2.00: ATAPI: VMware Virtual IDE CDROM Drive, 00000001, max UDMA/33
+Aug 20 08:25:10 ubuntu kernel: [    1.113064] ata1.00: configured for UDMA/33
+Aug 20 08:25:10 ubuntu kernel: [    1.113110] ata2.00: configured for UDMA/33
+Aug 20 08:25:10 ubuntu kernel: [    1.113412] scsi 0:0:0:0: CD-ROM            NECVMWar VMware IDE CDR00 1.00 PQ: 0 ANSI: 5
+Aug 20 08:25:10 ubuntu kernel: [    1.113761] sr0: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+Aug 20 08:25:10 ubuntu kernel: [    1.113763] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 20 08:25:10 ubuntu kernel: [    1.113820] sr 0:0:0:0: Attached scsi CD-ROM sr0
+Aug 20 08:25:10 ubuntu kernel: [    1.113852] sr 0:0:0:0: Attached scsi generic sg0 type 5
+Aug 20 08:25:10 ubuntu kernel: [    1.114094] scsi 1:0:0:0: CD-ROM            NECVMWar VMware IDE CDR10 1.00 PQ: 0 ANSI: 5
+Aug 20 08:25:10 ubuntu kernel: [    1.114418] sr1: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+Aug 20 08:25:10 ubuntu kernel: [    1.114466] sr 1:0:0:0: Attached scsi CD-ROM sr1
+Aug 20 08:25:10 ubuntu kernel: [    1.114493] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Aug 20 08:25:10 ubuntu kernel: [    1.114638] Freeing unused kernel memory: 784k freed
+Aug 20 08:25:10 ubuntu kernel: [    1.114688] Write protecting the kernel text: 6252k
+Aug 20 08:25:10 ubuntu kernel: [    1.114710] Write protecting the kernel read-only data: 2432k
+Aug 20 08:25:10 ubuntu kernel: [    1.114711] NX-protecting the kernel data: 3988k
+Aug 20 08:25:10 ubuntu kernel: [    1.152872] Disabling lock debugging due to kernel taint
+Aug 20 08:25:10 ubuntu kernel: [    1.152987] Fusion MPT base driver 3.04.20
+Aug 20 08:25:10 ubuntu kernel: [    1.152989] Copyright (c) 1999-2008 LSI Corporation
+Aug 20 08:25:10 ubuntu kernel: [    1.153140] Fusion MPT SPI Host driver 3.04.20
+Aug 20 08:25:10 ubuntu kernel: [    1.158780] pcnet32: pcnet32.c:v1.35 21.Apr.2008 tsbogend@alpha.franken.de
+Aug 20 08:25:10 ubuntu kernel: [    1.158830] pcnet32: PCnet/PCI II 79C970A at 0x2000, 00:0c:29:2e:c9:8d assigned IRQ 19
+Aug 20 08:25:10 ubuntu kernel: [    1.158930] pcnet32: eth0: registered as PCnet/PCI II 79C970A
+Aug 20 08:25:10 ubuntu kernel: [    1.158980] mptbase: ioc0: Initiating bringup
+Aug 20 08:25:10 ubuntu kernel: [    1.161529] pcnet32: 1 cards_found
+Aug 20 08:25:10 ubuntu kernel: [    1.174233] Floppy drive(s): fd0 is 1.44M
+Aug 20 08:25:10 ubuntu kernel: [    1.188595] FDC 0 is a post-1991 82077
+Aug 20 08:25:10 ubuntu kernel: [    1.228387] ioc0: LSI53C1030 B0: Capabilities={Initiator}
+Aug 20 08:25:10 ubuntu kernel: [    1.324341] usb 2-1: new full-speed USB device number 2 using uhci_hcd
+Aug 20 08:25:10 ubuntu kernel: [    1.388985] scsi2 : ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+Aug 20 08:25:10 ubuntu kernel: [    1.500361] scsi 2:0:0:0: Direct-Access     VMware,  VMware Virtual S 1.0  PQ: 0 ANSI: 2
+Aug 20 08:25:10 ubuntu kernel: [    1.500378] scsi target2:0:0: Beginning Domain Validation
+Aug 20 08:25:10 ubuntu kernel: [    1.501399] scsi target2:0:0: Domain Validation skipping write tests
+Aug 20 08:25:10 ubuntu kernel: [    1.501402] scsi target2:0:0: Ending Domain Validation
+Aug 20 08:25:10 ubuntu kernel: [    1.501451] scsi target2:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+Aug 20 08:25:10 ubuntu kernel: [    1.503137] sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.4 GB/20.0 GiB)
+Aug 20 08:25:10 ubuntu kernel: [    1.503190] sd 2:0:0:0: [sda] Write Protect is off
+Aug 20 08:25:10 ubuntu kernel: [    1.503192] sd 2:0:0:0: [sda] Mode Sense: 61 00 00 00
+Aug 20 08:25:10 ubuntu kernel: [    1.503253] sd 2:0:0:0: [sda] Cache data unavailable
+Aug 20 08:25:10 ubuntu kernel: [    1.503255] sd 2:0:0:0: [sda] Assuming drive cache: write through
+Aug 20 08:25:10 ubuntu kernel: [    1.503571] sd 2:0:0:0: [sda] Cache data unavailable
+Aug 20 08:25:10 ubuntu kernel: [    1.503574] sd 2:0:0:0: [sda] Assuming drive cache: write through
+Aug 20 08:25:10 ubuntu kernel: [    1.503958]  sda: sda1 sda2 < sda5 >
+Aug 20 08:25:10 ubuntu kernel: [    1.504260] sd 2:0:0:0: [sda] Cache data unavailable
+Aug 20 08:25:10 ubuntu kernel: [    1.504262] sd 2:0:0:0: [sda] Assuming drive cache: write through
+Aug 20 08:25:10 ubuntu kernel: [    1.504264] sd 2:0:0:0: [sda] Attached SCSI disk
+Aug 20 08:25:10 ubuntu kernel: [    1.504626] sd 2:0:0:0: Attached scsi generic sg2 type 0
+Aug 20 08:25:10 ubuntu kernel: [    1.530407] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 20 08:25:10 ubuntu kernel: [    1.682315] Adding 1046524k swap on /dev/sda5.  Priority:-1 extents:1 across:1046524k 
+Aug 20 08:25:10 ubuntu kernel: [    1.692902] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Aug 20 08:25:10 ubuntu kernel: [    1.724015] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 20 08:25:10 ubuntu kernel: [    1.760874] lp: driver loaded but no devices found
+Aug 20 08:25:10 ubuntu kernel: [    1.872973] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Aug 20 08:25:10 ubuntu kernel: [    1.906465] piix4_smbus 0000:00:07.3: Host SMBus controller not enabled!
+Aug 20 08:25:10 ubuntu kernel: [    1.914688] [drm] Initialized drm 1.1.0 20060810
+Aug 20 08:25:10 ubuntu kernel: [    1.949325] [drm] Capabilities:
+Aug 20 08:25:10 ubuntu kernel: [    1.949328] [drm]   Rect copy.
+Aug 20 08:25:10 ubuntu kernel: [    1.949329] [drm]   Cursor.
+Aug 20 08:25:10 ubuntu kernel: [    1.949330] [drm]   Cursor bypass.
+Aug 20 08:25:10 ubuntu kernel: [    1.949331] [drm]   Cursor bypass 2.
+Aug 20 08:25:10 ubuntu kernel: [    1.949332] [drm]   8bit emulation.
+Aug 20 08:25:10 ubuntu kernel: [    1.949333] [drm]   Alpha cursor.
+Aug 20 08:25:10 ubuntu kernel: [    1.949334] [drm]   3D.
+Aug 20 08:25:10 ubuntu kernel: [    1.949335] [drm]   Extended Fifo.
+Aug 20 08:25:10 ubuntu kernel: [    1.949336] [drm]   Multimon.
+Aug 20 08:25:10 ubuntu kernel: [    1.949337] [drm]   Pitchlock.
+Aug 20 08:25:10 ubuntu kernel: [    1.949338] [drm]   Irq mask.
+Aug 20 08:25:10 ubuntu kernel: [    1.949339] [drm]   Display Topology.
+Aug 20 08:25:10 ubuntu kernel: [    1.949340] [drm]   GMR.
+Aug 20 08:25:10 ubuntu kernel: [    1.949341] [drm]   Traces.
+Aug 20 08:25:10 ubuntu kernel: [    1.949342] [drm]   GMR2.
+Aug 20 08:25:10 ubuntu kernel: [    1.949343] [drm]   Screen Object 2.
+Aug 20 08:25:10 ubuntu kernel: [    1.949344] [drm] Max GMR ids is 64
+Aug 20 08:25:10 ubuntu kernel: [    1.949345] [drm] Max GMR descriptors is 4096
+Aug 20 08:25:10 ubuntu kernel: [    1.949346] [drm] Max number of GMR pages is 196608
+Aug 20 08:25:10 ubuntu kernel: [    1.949347] [drm] Max dedicated hypervisor surface memory is 786432 kiB
+Aug 20 08:25:10 ubuntu kernel: [    1.949348] [drm] VRAM at 0xd0000000 size is 131072 kiB
+Aug 20 08:25:10 ubuntu kernel: [    1.949349] [drm] MMIO at 0xc8800000 size is 2048 kiB
+Aug 20 08:25:10 ubuntu kernel: [    1.949351] [drm] global init.
+Aug 20 08:25:10 ubuntu kernel: [    1.953923] [TTM] Zone  kernel: Available graphics memory: 445614 kiB
+Aug 20 08:25:10 ubuntu kernel: [    1.953926] [TTM] Zone highmem: Available graphics memory: 513138 kiB
+Aug 20 08:25:10 ubuntu kernel: [    1.953927] [TTM] Initializing pool allocator
+Aug 20 08:25:10 ubuntu kernel: [    1.953930] [TTM] Initializing DMA pool allocator
+Aug 20 08:25:10 ubuntu kernel: [    1.954040] [drm] Supports vblank timestamp caching Rev 1 (10.10.2010).
+Aug 20 08:25:10 ubuntu kernel: [    1.954042] [drm] No driver support for vblank timestamp query.
+Aug 20 08:25:10 ubuntu kernel: [    1.954109] [drm] Screen objects system initialized
+Aug 20 08:25:10 ubuntu kernel: [    1.954114] [drm] Initialized vmwgfx 2.4.0 20120209 for 0000:00:0f.0 on minor 0
+Aug 20 08:25:10 ubuntu kernel: [    1.986081] parport_pc 00:08: reported by Plug and Play ACPI
+Aug 20 08:25:10 ubuntu kernel: [    1.986148] parport0: PC-style at 0x378, irq 7 [PCSPP,TRISTATE]
+Aug 20 08:25:10 ubuntu kernel: [    2.003958] usb 2-1: New USB device found, idVendor=0e0f, idProduct=0003
+Aug 20 08:25:10 ubuntu kernel: [    2.003961] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Aug 20 08:25:10 ubuntu kernel: [    2.003964] usb 2-1: Product: VMware Virtual USB Mouse
+Aug 20 08:25:10 ubuntu kernel: [    2.003965] usb 2-1: Manufacturer: VMware
+Aug 20 08:25:10 ubuntu kernel: [    2.079732] lp0: using parport0 (interrupt-driven).
+Aug 20 08:25:10 ubuntu kernel: [    2.119627] usb 2-2: new full-speed USB device number 3 using uhci_hcd
+Aug 20 08:25:10 ubuntu kernel: [    2.157793] microcode: CPU0 sig=0x306a9, pf=0x1, revision=0x15
+Aug 20 08:25:10 ubuntu kernel: [    2.256352] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002
+Aug 20 08:25:10 ubuntu kernel: [    2.256355] usb 2-2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Aug 20 08:25:10 ubuntu kernel: [    2.256358] usb 2-2: Product: VMware Virtual USB Hub
+Aug 20 08:25:10 ubuntu kernel: [    2.261715] hub 2-2:1.0: USB hub found
+Aug 20 08:25:10 ubuntu kernel: [    2.262666] hub 2-2:1.0: 7 ports detected
+Aug 20 08:25:11 ubuntu kernel: [    2.505148] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Aug 20 08:25:11 ubuntu kernel: [    2.505496] ppdev: user-space parallel port driver
+Aug 20 08:25:11 ubuntu kernel: [    2.520604] input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input2
+Aug 20 08:25:11 ubuntu kernel: [    2.560543] type=1400 audit(1377012311.121:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=477 comm="apparmor_parser"
+Aug 20 08:25:11 ubuntu kernel: [    2.560628] type=1400 audit(1377012311.121:3): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=477 comm="apparmor_parser"
+Aug 20 08:25:11 ubuntu kernel: [    2.560680] type=1400 audit(1377012311.121:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=477 comm="apparmor_parser"
+Aug 20 08:25:11 ubuntu kernel: [    2.563602] usb 2-2.1: new full-speed USB device number 4 using uhci_hcd
+Aug 20 08:25:11 ubuntu dhclient: Internet Systems Consortium DHCP Client 4.2.4
+Aug 20 08:25:11 ubuntu dhclient: Copyright 2004-2012 Internet Systems Consortium.
+Aug 20 08:25:11 ubuntu dhclient: All rights reserved.
+Aug 20 08:25:11 ubuntu dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Aug 20 08:25:11 ubuntu dhclient: 
+Aug 20 08:25:11 ubuntu kernel: [    2.589416] usbcore: registered new interface driver usbhid
+Aug 20 08:25:11 ubuntu kernel: [    2.589419] usbhid: USB HID core driver
+Aug 20 08:25:11 ubuntu kernel: [    2.600151] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 08:25:12 ubuntu kernel: [    2.804880] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/input/input3
+Aug 20 08:25:12 ubuntu kernel: [    3.009107] usb 2-2.1: New USB device found, idVendor=0e0f, idProduct=0008
+Aug 20 08:25:12 ubuntu kernel: [    3.009110] usb 2-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Aug 20 08:25:12 ubuntu kernel: [    3.009112] usb 2-2.1: Product: Virtual Bluetooth Adapter
+Aug 20 08:25:12 ubuntu kernel: [    3.009114] usb 2-2.1: Manufacturer: VMware
+Aug 20 08:25:12 ubuntu kernel: [    3.009115] usb 2-2.1: SerialNumber: 000650268328
+Aug 20 08:25:12 ubuntu kernel: [    3.635164] hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+Aug 20 08:25:12 ubuntu kernel: [    3.642431] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.1/input/input4
+Aug 20 08:25:12 ubuntu kernel: [    3.647168] hid-generic 0003:0E0F:0003.0002: input,hidraw1: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input1
+Aug 20 08:25:12 ubuntu kernel: [    3.677372] Bluetooth: Core ver 2.16
+Aug 20 08:25:12 ubuntu kernel: [    3.677406] NET: Registered protocol family 31
+Aug 20 08:25:12 ubuntu kernel: [    3.677407] Bluetooth: HCI device and connection manager initialized
+Aug 20 08:25:12 ubuntu kernel: [    3.677854] Bluetooth: HCI socket layer initialized
+Aug 20 08:25:12 ubuntu kernel: [    3.677857] Bluetooth: L2CAP socket layer initialized
+Aug 20 08:25:12 ubuntu kernel: [    3.677862] Bluetooth: SCO socket layer initialized
+Aug 20 08:25:12 ubuntu kernel: [    3.683502] type=1400 audit(1377012312.245:5): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=523 comm="apparmor_parser"
+Aug 20 08:25:12 ubuntu kernel: [    3.683592] type=1400 audit(1377012312.245:6): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=523 comm="apparmor_parser"
+Aug 20 08:25:12 ubuntu kernel: [    3.683647] type=1400 audit(1377012312.245:7): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=523 comm="apparmor_parser"
+Aug 20 08:25:12 ubuntu kernel: [    3.686083] usbcore: registered new interface driver btusb
+Aug 20 08:25:12 ubuntu kernel: [    3.748348] [drm] width 640
+Aug 20 08:25:12 ubuntu kernel: [    3.748359] [drm] height 480
+Aug 20 08:25:12 ubuntu kernel: [    3.748367] [drm] bpp 32
+Aug 20 08:25:12 ubuntu kernel: [    3.750403] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x0000077f
+Aug 20 08:25:12 ubuntu failsafe: Failsafe of 120 seconds reached.
+Aug 20 08:25:12 ubuntu dhclient: Listening on LPF/eth0/00:0c:29:2e:c9:8d
+Aug 20 08:25:12 ubuntu dhclient: Sending on   LPF/eth0/00:0c:29:2e:c9:8d
+Aug 20 08:25:12 ubuntu kernel: [    3.771316] [drm] width 640
+Aug 20 08:25:12 ubuntu kernel: [    3.771327] [drm] height 480
+Aug 20 08:25:12 ubuntu kernel: [    3.771336] [drm] bpp 32
+Aug 20 08:25:12 ubuntu kernel: [    3.774385] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x0000077f
+Aug 20 08:25:12 ubuntu dhclient: Sending on   Socket/fallback
+Aug 20 08:25:12 ubuntu dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3 (xid=0x3e9617af)
+Aug 20 08:25:12 ubuntu kernel: [    3.798387] [drm] width 640
+Aug 20 08:25:12 ubuntu kernel: [    3.798397] [drm] height 480
+Aug 20 08:25:12 ubuntu kernel: [    3.798406] [drm] bpp 32
+Aug 20 08:25:12 ubuntu kernel: [    3.802363] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x0000077f
+Aug 20 08:25:12 ubuntu ntpdate[657]: Can't find host ntp.ubuntu.com: System error (-11)
+Aug 20 08:25:12 ubuntu ntpdate[657]: no servers can be used, exiting
+Aug 20 08:25:13 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 255.255.255.255 port 67 (xid=0x3e9617af)
+Aug 20 08:25:13 ubuntu dhclient: DHCPOFFER of 192.168.207.137 from 192.168.207.254
+Aug 20 08:25:13 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 08:25:13 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 723 seconds.
+Aug 20 08:25:13 ubuntu kernel: [    4.698660] type=1400 audit(1377012313.261:8): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=752 comm="apparmor_parser"
+Aug 20 08:25:13 ubuntu kernel: [    4.698751] type=1400 audit(1377012313.261:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=752 comm="apparmor_parser"
+Aug 20 08:25:13 ubuntu kernel: [    4.698827] type=1400 audit(1377012313.261:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=752 comm="apparmor_parser"
+Aug 20 08:25:13 ubuntu cron[779]: (CRON) INFO (pidfile fd = 3)
+Aug 20 08:25:13 ubuntu cron[798]: (CRON) STARTUP (fork ok)
+Aug 20 08:25:13 ubuntu cron[798]: (CRON) INFO (Running @reboot jobs)
+Aug 20 08:25:13 ubuntu /usr/sbin/irqbalance: Balaincing is ineffective on systems with a single cache domain.  Shutting down
+Aug 20 08:25:21 ubuntu ntpdate[709]: step time server 91.189.89.199 offset 1.231919 sec
+Aug 20 08:37:17 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 08:37:17 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 08:37:17 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 812 seconds.
+Aug 20 08:50:49 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 08:50:49 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 08:50:49 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 725 seconds.
+Aug 20 09:02:54 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 09:02:54 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 09:02:54 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 866 seconds.
+Aug 20 09:05:15 ubuntu dbus[414]: [system] Reloaded configuration
+Aug 20 09:05:15  dbus[414]: last message repeated 27 times
+Aug 20 09:05:15 ubuntu udevd[329]: specified group 'colord' unknown
+Aug 20 09:05:15 ubuntu udevd[329]: specified group 'colord' unknown
+Aug 20 09:05:22 ubuntu dbus[414]: [system] Reloaded configuration
+Aug 20 09:06:14  dbus[414]: last message repeated 4 times
+Aug 20 09:09:38 ubuntu kernel: [ 2667.067548] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 09:09:48 ubuntu kernel: [ 2677.059984] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 09:10:30 ubuntu kernel: [ 2719.031952] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 09:10:42 ubuntu kernel: [ 2731.018013] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 09:17:01 ubuntu CRON[12140]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 09:17:20 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 09:17:20 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 09:17:20 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 800 seconds.
+Aug 20 09:23:04 ubuntu kernel: [ 3472.444730] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 09:23:14 ubuntu kernel: [ 3482.436882] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 09:30:40 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 09:30:40 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 09:30:40 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 720 seconds.
+Aug 20 09:33:24 ubuntu dbus[414]: [system] Activating service name='org.freedesktop.ConsoleKit' (using servicehelper)
+Aug 20 09:33:24 ubuntu dbus[414]: [system] Activating service name='org.freedesktop.PolicyKit1' (using servicehelper)
+Aug 20 09:33:24 ubuntu polkitd[12663]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Aug 20 09:33:24 ubuntu dbus[414]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Aug 20 09:33:24 ubuntu dbus[414]: [system] Successfully activated service 'org.freedesktop.ConsoleKit'
+Aug 20 09:42:41 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 09:42:41 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 09:42:41 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 780 seconds.
+Aug 20 09:55:41 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 09:55:41 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 09:55:41 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 736 seconds.
+Aug 20 10:07:57 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 10:07:57 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 10:07:57 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 701 seconds.
+Aug 20 10:17:01 ubuntu CRON[16896]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 10:19:38 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 10:19:38 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 10:19:38 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 755 seconds.
+Aug 20 10:24:57 ubuntu kernel: [ 7182.575820] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 10:25:07 ubuntu kernel: [ 7192.568131] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 10:32:13 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 10:32:13 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 10:32:14 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 893 seconds.
+Aug 20 10:47:07 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 10:47:07 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 10:47:07 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 758 seconds.
+Aug 20 10:59:46 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 10:59:46 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 10:59:46 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 727 seconds.
+Aug 20 11:11:53 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 11:11:53 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 11:11:53 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 830 seconds.
+Aug 20 11:17:01 ubuntu CRON[18282]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 11:23:37 ubuntu kernel: [10699.856637] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 11:23:47 ubuntu kernel: [10709.848623] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 11:25:43 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 11:25:43 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 11:25:43 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 780 seconds.
+Aug 20 11:38:43 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 11:38:43 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 11:38:43 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 851 seconds.
+Aug 20 11:52:54 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 11:52:54 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 11:52:54 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 778 seconds.
+Aug 20 12:05:52 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 12:05:52 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 12:05:52 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 730 seconds.
+Aug 20 12:17:01 ubuntu CRON[18337]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 12:18:02 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 12:18:02 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 12:18:02 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 805 seconds.
+Aug 20 12:31:27 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 12:31:27 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 12:31:27 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 827 seconds.
+Aug 20 12:40:05 ubuntu kernel: [15284.311535] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 12:40:15 ubuntu kernel: [15294.303911] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 12:45:14 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 12:45:14 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 12:45:14 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 677 seconds.
+Aug 20 12:51:15 ubuntu kernel: [15953.793907] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 12:51:25 ubuntu kernel: [15963.786130] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 12:56:31 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 12:56:31 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 12:56:31 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 804 seconds.
+Aug 20 12:56:41 ubuntu kernel: [16279.541978] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 12:56:51 ubuntu kernel: [16289.534315] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 13:09:55 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 13:09:55 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 13:09:55 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 690 seconds.
+Aug 20 13:17:01 ubuntu CRON[18403]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 13:17:09 ubuntu kernel: [17506.593018] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 13:17:19 ubuntu kernel: [17516.585797] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 13:21:25 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 13:21:25 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 13:21:26 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 871 seconds.
+Aug 20 13:35:57 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 13:35:57 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 13:35:57 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 798 seconds.
+Aug 20 13:49:15 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 13:49:15 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 13:49:15 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 825 seconds.
+Aug 20 14:00:53 ubuntu kernel: [20128.565856] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 14:01:03 ubuntu kernel: [20138.558294] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 14:03:00 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 14:03:00 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 14:03:00 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 884 seconds.
+Aug 20 14:17:01 ubuntu CRON[18458]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 14:17:44 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 14:17:44 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 14:17:44 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 818 seconds.
+Aug 20 14:31:22 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 14:31:22 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 14:31:22 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 743 seconds.
+Aug 20 14:43:46 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 14:43:46 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 14:43:46 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 892 seconds.
+Aug 20 14:47:33 ubuntu kernel: [22926.402255] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 14:47:45 ubuntu kernel: [22938.393145] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 14:58:38 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 14:58:38 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 14:58:38 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 726 seconds.
+Aug 20 15:10:44 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 15:10:44 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 15:10:44 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 744 seconds.
+Aug 20 15:17:01 ubuntu CRON[18523]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 15:23:08 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 15:23:08 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 15:23:08 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 855 seconds.
+Aug 20 15:37:23 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 15:37:23 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 15:37:23 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 807 seconds.
+Aug 20 15:50:50 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 15:50:50 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 15:50:50 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 790 seconds.
+Aug 20 16:04:00 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 16:04:00 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 16:04:00 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 853 seconds.
+Aug 20 16:17:01 ubuntu CRON[18578]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 16:18:14 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 16:18:14 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 16:18:14 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 812 seconds.
+Aug 20 16:25:57 ubuntu kernel: [28825.841077] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 16:26:07 ubuntu kernel: [28835.833308] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 16:31:46 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 16:31:46 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 16:31:46 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 770 seconds.
+Aug 20 16:44:36 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 16:44:36 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 16:44:36 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 863 seconds.
+Aug 20 16:58:59 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 16:58:59 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 16:58:59 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 738 seconds.
+Aug 20 16:59:33 ubuntu kernel: [30840.282978] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 16:59:43 ubuntu kernel: [30850.275798] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 17:11:17 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 17:11:17 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 17:11:17 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 700 seconds.
+Aug 20 17:17:01 ubuntu CRON[18643]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 17:22:57 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 17:22:57 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 17:22:57 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 741 seconds.
+Aug 20 17:35:19 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 17:35:19 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 17:35:19 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 866 seconds.
+Aug 20 17:48:47 ubuntu kernel: [33791.898486] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 17:48:47 ubuntu kernel: [33791.898567] usb 2-2.1: USB disconnect, device number 4
+Aug 20 17:48:49 ubuntu kernel: [33794.004375] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 17:48:55 ubuntu kernel: [33799.477190] hub 2-2:1.0: hub_port_status failed (err = -110)
+Aug 20 17:48:55 ubuntu kernel: [33799.477359] hub_port_connect_change: 3 callbacks suppressed
+Aug 20 17:48:55 ubuntu kernel: [33799.477363] hub 2-2:1.0: connect-debounce failed, port 1 disabled
+Aug 20 17:48:58 ubuntu kernel: [33802.945560] usb 2-2.1: new full-speed USB device number 5 using uhci_hcd
+Aug 20 17:48:58 ubuntu kernel: [33803.047696] usb 2-2.1: New USB device found, idVendor=0e0f, idProduct=0008
+Aug 20 17:48:58 ubuntu kernel: [33803.047699] usb 2-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Aug 20 17:48:58 ubuntu kernel: [33803.047701] usb 2-2.1: Product: Virtual Bluetooth Adapter
+Aug 20 17:48:58 ubuntu kernel: [33803.047702] usb 2-2.1: Manufacturer: VMware
+Aug 20 17:48:58 ubuntu kernel: [33803.047703] usb 2-2.1: SerialNumber: 000650268328
+Aug 20 17:49:45 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 17:49:45 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 17:49:45 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 827 seconds.
+Aug 20 17:56:35 ubuntu kernel: [34259.639523] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 17:56:45 ubuntu kernel: [34269.631730] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 18:03:32 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 18:03:32 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 18:03:32 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 701 seconds.
+Aug 20 18:15:13 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 18:15:13 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 18:15:13 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 817 seconds.
+Aug 20 18:17:01 ubuntu CRON[19386]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 18:28:51 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 18:28:51 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 18:28:51 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 748 seconds.
+Aug 20 18:29:21 ubuntu kernel: [36224.120815] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 18:29:31 ubuntu kernel: [36234.112981] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 18:29:43 ubuntu kernel: [36246.103189] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 18:29:53 ubuntu kernel: [36256.095782] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 18:32:25 ubuntu kernel: [36407.978341] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 18:32:35 ubuntu kernel: [36417.970646] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 18:41:19 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 18:41:19 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 18:41:19 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 821 seconds.
+Aug 20 18:55:00 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 18:55:00 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 18:55:00 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 787 seconds.
+Aug 20 19:08:07 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 19:08:07 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 19:08:07 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 702 seconds.
+Aug 20 19:17:01 ubuntu CRON[19452]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 19:19:49 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 19:19:49 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 19:19:49 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 864 seconds.
+Aug 20 19:30:05 ubuntu kernel: [39865.305257] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:30:15 ubuntu kernel: [39875.297390] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:31:13 ubuntu kernel: [39933.252432] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:31:23 ubuntu kernel: [39943.244893] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:34:13 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 19:34:13 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 19:34:13 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 824 seconds.
+Aug 20 19:46:27 ubuntu kernel: [40846.546451] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:46:37 ubuntu kernel: [40856.539116] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:47:10 ubuntu kernel: [40889.344001] hrtimer: interrupt took 108382242 ns
+Aug 20 19:47:18 ubuntu kernel: [40897.511749] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:47:28 ubuntu kernel: [40907.499302] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:47:57 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 19:47:57 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 19:47:57 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 783 seconds.
+Aug 20 19:52:16 ubuntu kernel: [41195.276660] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:52:27 ubuntu kernel: [41206.272653] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:52:29 ubuntu kernel: [41208.266595] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:52:39 ubuntu kernel: [41218.259047] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 19:54:19 ubuntu kernel: [41318.181739] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 19:54:29 ubuntu kernel: [41328.174041] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 20:01:00 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 20:01:00 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 20:01:00 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 757 seconds.
+Aug 20 20:13:38 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 20:13:38 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 20:13:38 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 789 seconds.
+Aug 20 20:17:01 ubuntu CRON[19767]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 20:26:47 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 20:26:47 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 20:26:47 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 851 seconds.
+Aug 20 20:40:58 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 20:40:58 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 20:40:58 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 865 seconds.
+Aug 20 20:52:25 ubuntu kernel: [44801.488308] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 20:52:35 ubuntu kernel: [44811.480597] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 20:55:19 ubuntu kernel: [44975.354025] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 20:55:23 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 20:55:31  dhclient: last message repeated 2 times
+Aug 20 20:55:31 ubuntu kernel: [44987.344658] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 20:55:32 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 20:55:32 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 891 seconds.
+Aug 20 20:55:45 ubuntu kernel: [45001.333933] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 20:55:55 ubuntu kernel: [45011.326027] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 21:10:23 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 21:10:23 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 21:10:23 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 765 seconds.
+Aug 20 21:17:01 ubuntu CRON[20645]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 20 21:22:33 ubuntu kernel: [46608.091419] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 21:22:43 ubuntu kernel: [46618.083938] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 21:23:08 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 21:23:08 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 21:23:08 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 727 seconds.
+Aug 20 21:35:15 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 21:35:15 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 21:35:15 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 875 seconds.
+Aug 20 21:49:51 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 21:49:51 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 21:49:51 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 831 seconds.
+Aug 20 22:03:42 ubuntu dhclient: DHCPREQUEST of 192.168.207.137 on eth0 to 192.168.207.254 port 67 (xid=0x3e9617af)
+Aug 20 22:03:42 ubuntu dhclient: DHCPACK of 192.168.207.137 from 192.168.207.254
+Aug 20 22:03:42 ubuntu dhclient: bound to 192.168.207.137 -- renewal in 686 seconds.
+Aug 20 22:09:09 ubuntu kernel: [49401.931191] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 22:09:19 ubuntu kernel: [49411.923530] pcnet32 0000:02:01.0 eth0: link up
+Aug 20 22:09:29 ubuntu kernel: [49421.915849] pcnet32 0000:02:01.0 eth0: link down
+Aug 20 22:09:39 ubuntu kernel: [49431.908032] pcnet32 0000:02:01.0 eth0: link up
