@@ -6,7 +6,7 @@ import SparkContext._
 class Lala extends FunSuite {
 
   test("pop is invoked on a non-empty stack") {
-    val logFile = "/tmp/syslog" // Should be some file on your system
+    val logFile = "src/test/resources/syslog" // Should be some file on your system
 //    val sc = new SparkContext("local", "Simple Job", "$YOUR_SPARK_HOME",
  //     List("target/scala-2.9.3/simple-project_2.9.3-1.0.jar"))
     val sc = new SparkContext( "local" , "Simple Job" ) 
