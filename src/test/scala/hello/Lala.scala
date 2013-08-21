@@ -2,20 +2,14 @@ import org.scalatest.FunSuite
 import scala.collection.mutable.Stack
 import spark.SparkContext
 import SparkContext._
+import hello.Count
 
 class Lala extends FunSuite {
-
-  test("pop is invoked on a non-empty stack") {
-    val logFile = "src/test/resources/syslog" // Should be some file on your system
-//    val sc = new SparkContext("local", "Simple Job", "$YOUR_SPARK_HOME",
- //     List("target/scala-2.9.3/simple-project_2.9.3-1.0.jar"))
+  test("count ") {
+    val logFile = "src/test/resources/syslog"
     val sc = new SparkContext( "local" , "Simple Job" ) 
-    val logData = sc.textFile(logFile, 2).cache()
-    val numAs = logData.filter(line => line.contains("a")).count()
-    val numBs = logData.filter(line => line.contains("b")).count()
-    println("Lines with a: %s, Lines with b: %s".format(numAs, numBs))
-	assert( numAs >  1 )
+    val i = Count.countA(sc , logFile)
+    assert( i == 1039 )
   }
-
 }
 
